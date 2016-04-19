@@ -16822,7 +16822,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = Robert Seaton
 			gender = Male
 			type = Crew
 			trait = Scientist
