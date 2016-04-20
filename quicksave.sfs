@@ -10,7 +10,7 @@ GAME
 	scene = 7
 	editor = None
 	flag = Squad/Flags/NASA
-	launchID = 9
+	launchID = 10
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
 	PARAMETERS
@@ -757,7 +757,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 1718582.45917948
+		UT = 1728492.98418204
 		activeVessel = 0
 		mapViewFiltering = 1023
 		VESSEL
@@ -769,33 +769,33 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 1718560.45917948
+			met = 1728470.98418204
 			lct = 21.9599999999996
-			lastUT = 1718582.45917948
+			lastUT = 1728492.98418204
 			root = 0
-			lat = -0.00271284075952024
-			lon = 43.529786214763
-			alt = 125419.210151249
+			lat = 0.00143676661834956
+			lon = 165.521344138195
+			alt = 125277.207692036
 			hgt = -1
-			nrm = 0.9057924,0.1375929,-0.4007599
-			rot = 0.07561512,0.5564032,0.08283944,-0.8233076
-			CoM = 9.198065,-7.017305,-0.847301
+			nrm = -0.5779765,0.1576305,-0.8006846
+			rot = 0.1414071,-0.5659232,-0.0323654,-0.8115956
+			CoM = 7.191689,-10.72005,-0.7182566
 			stg = 1
 			prst = False
-			ref = 0
+			ref = 2585324684
 			ctrl = True
-			cPch = 0.09400003
-			cHdg = 1.198
+			cPch = -0.1903529
+			cHdg = 0.8959994
 			cMod = 0
 			ORBIT
 			{
-				SMA = 725302.681051894
-				ECC = 0.000212875124794324
-				INC = 0.00359645143476883
-				LPE = 103.216594318117
-				LAN = 156.996129404218
-				MNA = 2.50577573831671
-				EPH = 1718582.45917948
+				SMA = 725295.353025331
+				ECC = 0.000191367270034533
+				INC = 0.00404976772500884
+				LPE = 91.9060966541422
+				LAN = 159.144973462688
+				MNA = 1.40114100394172
+				EPH = 1728492.98418204
 				REF = 1
 			}
 			PART
@@ -820,8 +820,8 @@ GAME
 				attN = bottom, 1
 				attN = top, -1
 				mass = 1.76
-				temp = 127.454957251086
-				tempExt = 127.62569216888
+				temp = 146.236893682265
+				tempExt = 146.581621874319
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1233,7 +1233,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.999996
+					amount = 199.999872000006
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -1275,8 +1275,8 @@ GAME
 				attN = top, 0
 				attN = bottom, 2
 				mass = 0.2
-				temp = 127.548576636615
-				tempExt = 127.626041176912
+				temp = 145.987506963929
+				tempExt = 146.236072286748
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1297,7 +1297,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.999996
+					amount = 3999.999872
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -1328,8 +1328,8 @@ GAME
 				attN = top, 1
 				attN = bottom, 3
 				mass = 2.5
-				temp = 127.688953712376
-				tempExt = 127.88925432008
+				temp = 145.729245310075
+				tempExt = 145.913091326925
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1655,8 +1655,8 @@ GAME
 				attN = top, 2
 				attN = bottom, 4
 				mass = 2.5
-				temp = 127.990420668115
-				tempExt = 128.165863386052
+				temp = 145.729119004658
+				tempExt = 145.96654211223
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1981,8 +1981,8 @@ GAME
 				attN = top, 5
 				attN = bottom, 3
 				mass = 0.1
-				temp = 128.627235841528
-				tempExt = 128.883804649938
+				temp = 145.719738018754
+				tempExt = 145.825301058763
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2027,8 +2027,8 @@ GAME
 				attN = top, 4
 				attN = bottom, 10
 				mass = 1.5
-				temp = 129.334993643122
-				tempExt = 130.816932620792
+				temp = 145.697587246135
+				tempExt = 145.734816452639
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2069,8 +2069,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 129.377745811914
-				tempExt = 129.903252483201
+				temp = 145.693597317905
+				tempExt = 145.691288783572
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2264,8 +2264,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 129.356337606562
-				tempExt = 129.744053424739
+				temp = 145.704971932321
+				tempExt = 145.819679616423
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2459,8 +2459,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 130.82668040388
-				tempExt = 144.292995303779
+				temp = 145.705535559398
+				tempExt = 145.795309637346
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2654,8 +2654,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 129.40773595631
-				tempExt = 130.123152602087
+				temp = 145.69518842444
+				tempExt = 145.700433408679
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2843,8 +2843,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 129.32798265296
-				tempExt = 129.708205470642
+				temp = 145.696283508949
+				tempExt = 145.707026069903
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3038,8 +3038,8 @@ GAME
 				srfN = srfAttach, 4
 				attN = bottom01, -1
 				mass = 0.075
-				temp = 128.521553585821
-				tempExt = 128.767225278736
+				temp = 145.706085002644
+				tempExt = 145.738592260854
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3104,8 +3104,8 @@ GAME
 				srfN = srfAttach, 4
 				attN = bottom01, -1
 				mass = 0.075
-				temp = 128.501154509908
-				tempExt = 128.654128693351
+				temp = 145.717598024852
+				tempExt = 145.802283596838
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3173,8 +3173,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.980069578068
-				tempExt = 128.067480180664
+				temp = 145.742806242308
+				tempExt = 145.850068167975
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3365,8 +3365,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.980069578068
-				tempExt = 128.067480180664
+				temp = 145.742806242308
+				tempExt = 145.850068167975
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3557,8 +3557,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.980069578068
-				tempExt = 128.067480180664
+				temp = 145.742806242308
+				tempExt = 145.850068167975
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3749,8 +3749,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.980069578068
-				tempExt = 128.067480180664
+				temp = 145.742806242308
+				tempExt = 145.850068167975
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3941,8 +3941,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.682893857304
-				tempExt = 127.781822380626
+				temp = 145.751558511824
+				tempExt = 145.825583778563
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4133,8 +4133,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.682893857304
-				tempExt = 127.781822380626
+				temp = 145.751558511824
+				tempExt = 145.825583778563
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4325,8 +4325,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.731727597157
-				tempExt = 127.805541976994
+				temp = 145.751558511824
+				tempExt = 145.825583778563
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4517,8 +4517,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 127.684154942377
-				tempExt = 127.793231979509
+				temp = 145.751558511824
+				tempExt = 145.825583778563
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4707,8 +4707,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 127.51897122243
-				tempExt = 127.559483229634
+				temp = 146.116625518017
+				tempExt = 146.161179734176
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4838,8 +4838,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 127.518971282307
-				tempExt = 127.559483264787
+				temp = 146.116625451254
+				tempExt = 146.161179699725
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4969,8 +4969,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 127.518971222424
-				tempExt = 127.55948322963
+				temp = 146.116625451254
+				tempExt = 146.161179699725
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5100,8 +5100,8 @@ GAME
 				sym = 23
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 127.518971222424
-				tempExt = 127.55948322963
+				temp = 146.116625451394
+				tempExt = 146.161179699798
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5229,8 +5229,8 @@ GAME
 				sym = 26
 				srfN = srfAttach, 1
 				mass = 0.3
-				temp = 127.102249787586
-				tempExt = 127.874722331345
+				temp = 145.915998650527
+				tempExt = 146.744500302396
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5252,7 +5252,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.5830578, -0.5831994, 0.3999658, -0.3999369)
+					currentRotation = (0.3728291, 0.3727421, 0.6007797, -0.6009372)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -5338,8 +5338,8 @@ GAME
 				sym = 25
 				srfN = srfAttach, 1
 				mass = 0.3
-				temp = 127.270116641912
-				tempExt = 128.700224621953
+				temp = 146.05361054199
+				tempExt = 147.538780275901
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5361,7 +5361,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.07546531, -0.07527695, 0.7031196, -0.7030371)
+					currentRotation = (-0.3729122, -0.3725663, 0.6008511, -0.6009233)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -5448,8 +5448,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 28
 				mass = 0.05
-				temp = 127.097801295001
-				tempExt = 127.417376678691
+				temp = 145.905765480252
+				tempExt = 145.932427447656
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5643,8 +5643,8 @@ GAME
 				attN = top, 27
 				attN = bottom, 29
 				mass = 0.1
-				temp = 127.056804291928
-				tempExt = 127.128072565226
+				temp = 145.906216369022
+				tempExt = 146.011569934546
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5685,8 +5685,8 @@ GAME
 				attN = bottom, 30
 				attN = top, 28
 				mass = 2.5
-				temp = 127.032028699054
-				tempExt = 127.281491843059
+				temp = 145.890676580588
+				tempExt = 146.018907457396
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6097,7 +6097,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 99.9999960000001
+					amount = 99.999872000006
 					maxAmount = 100
 					flowState = True
 					isTweakable = True
@@ -6139,8 +6139,8 @@ GAME
 				attN = top, 29
 				attN = bottom, 31
 				mass = 0.4
-				temp = 127.021804890278
-				tempExt = 127.122383749771
+				temp = 145.884867433881
+				tempExt = 145.969789562037
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6192,8 +6192,8 @@ GAME
 				attN = top, 32
 				attN = bottom, 30
 				mass = 0.2
-				temp = 127.080973184201
-				tempExt = 127.166141823362
+				temp = 145.924662439746
+				tempExt = 145.948018900248
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6381,8 +6381,8 @@ GAME
 				attN = top, 31
 				attN = bottom, 33
 				mass = 0.2
-				temp = 127.143888599827
-				tempExt = 127.332757727936
+				temp = 145.968057756135
+				tempExt = 146.108079047147
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6570,8 +6570,8 @@ GAME
 				attN = top, 32
 				attN = bottom, 38
 				mass = 3.5
-				temp = 127.199030547581
-				tempExt = 127.527218733975
+				temp = 146.005987794888
+				tempExt = 146.24357498789
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6710,7 +6710,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -6895,8 +6895,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 127.201239070656
-				tempExt = 127.372923472027
+				temp = 146.001807708037
+				tempExt = 146.122716200505
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7055,8 +7055,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 127.201277567679
-				tempExt = 127.372941226015
+				temp = 146.001807708037
+				tempExt = 146.122716200505
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7215,8 +7215,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 127.20123925985
-				tempExt = 127.372923559279
+				temp = 146.004274174905
+				tempExt = 146.163446553983
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7375,8 +7375,8 @@ GAME
 				sym = 36
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 127.201239081412
-				tempExt = 127.372923476987
+				temp = 146.001807708037
+				tempExt = 146.122716200505
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7534,8 +7534,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 33
 				mass = 0.2
-				temp = 127.202408861567
-				tempExt = 127.318284719855
+				temp = 146.00966445648
+				tempExt = 146.103703745555
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7730,8 +7730,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 127.003507205388
-				tempExt = 127.060361802382
+				temp = 145.873441362715
+				tempExt = 145.913727514089
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7890,8 +7890,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 127.008504562966
-				tempExt = 127.094652207778
+				temp = 145.873303704674
+				tempExt = 145.913662915336
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8050,8 +8050,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 127.003442915148
-				tempExt = 127.060331629604
+				temp = 145.873303667117
+				tempExt = 145.913662897712
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8210,8 +8210,8 @@ GAME
 				sym = 41
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 127.003437398635
-				tempExt = 127.060329040587
+				temp = 145.878341064092
+				tempExt = 145.9164343731
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8369,8 +8369,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 44
 				mass = 0.05
-				temp = 126.640571965162
-				tempExt = 127.08501262916
+				temp = 145.803213363827
+				tempExt = 145.825991558222
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8564,8 +8564,8 @@ GAME
 				attN = top, 43
 				attN = bottom, 49
 				mass = 0.15
-				temp = 126.576791501348
-				tempExt = 126.758849940986
+				temp = 145.802122884795
+				tempExt = 145.86028959558
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8618,8 +8618,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 126.570930341207
-				tempExt = 126.661001864346
+				temp = 145.795420781553
+				tempExt = 145.817010951419
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8778,8 +8778,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 126.570572028819
-				tempExt = 126.660825618506
+				temp = 145.795419878019
+				tempExt = 145.817010507043
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8938,8 +8938,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 126.570720965426
-				tempExt = 126.660898877088
+				temp = 145.795419881973
+				tempExt = 145.817010508987
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9098,8 +9098,8 @@ GAME
 				sym = 47
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 126.573092217488
-				tempExt = 126.662078346714
+				temp = 145.795420057386
+				tempExt = 145.817010595259
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9257,8 +9257,8 @@ GAME
 				attN = top, 44
 				attN = bottom, 50
 				mass = 0.05
-				temp = 126.612514578943
-				tempExt = 126.702726852567
+				temp = 145.862276677644
+				tempExt = 146.02921570402
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9279,7 +9279,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.999996
+					amount = 999.999872000006
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -9310,8 +9310,8 @@ GAME
 				attN = top, 49
 				attN = bottom, 59
 				mass = 0.5
-				temp = 126.64631030219
-				tempExt = 126.758587033094
+				temp = 145.917894689196
+				tempExt = 146.201380667886
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9375,8 +9375,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 126.646709111531
-				tempExt = 126.701092646082
+				temp = 145.922931429528
+				tempExt = 146.063263954601
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9535,8 +9535,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 126.646836017656
-				tempExt = 126.701150290622
+				temp = 145.922931429528
+				tempExt = 146.063263954601
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9695,8 +9695,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 126.646445669559
-				tempExt = 126.700972982897
+				temp = 145.922931438724
+				tempExt = 146.06326395887
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9855,8 +9855,8 @@ GAME
 				sym = 53
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 126.650348261187
-				tempExt = 126.702786162097
+				temp = 145.92293142953
+				tempExt = 146.063263954602
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10017,8 +10017,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 126.653164766479
-				tempExt = 126.702493015084
+				temp = 145.936550496928
+				tempExt = 146.065755721122
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10209,8 +10209,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 126.656095209963
-				tempExt = 126.703022815755
+				temp = 145.935197188806
+				tempExt = 146.060220677595
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10407,8 +10407,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 126.653164766479
-				tempExt = 126.702493015084
+				temp = 145.936550496928
+				tempExt = 146.065755721122
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10599,8 +10599,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 126.656022006418
-				tempExt = 126.673037437364
+				temp = 145.923982891176
+				tempExt = 146.011455530255
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10794,8 +10794,8 @@ GAME
 				attN = top, 60
 				attN = bottom, 50
 				mass = 0.05
-				temp = 126.745357121384
-				tempExt = 126.820948395815
+				temp = 146.078434010103
+				tempExt = 146.195393969126
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10987,8 +10987,8 @@ GAME
 				attN = top, 59
 				attN = bottom, 65
 				mass = 1.5
-				temp = 126.856623702101
-				tempExt = 126.972645848898
+				temp = 146.260459368196
+				tempExt = 146.504215380646
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11029,8 +11029,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 126.873808877696
-				tempExt = 127.14362945001
+				temp = 146.28431015267
+				tempExt = 146.680961318286
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11218,8 +11218,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 126.860266940648
-				tempExt = 126.908684447696
+				temp = 146.26833166791
+				tempExt = 146.38846159755
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11407,8 +11407,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 126.867018399086
-				tempExt = 127.03166107765
+				temp = 146.267454030717
+				tempExt = 146.371651902049
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11596,8 +11596,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 126.860266940648
-				tempExt = 126.908684447696
+				temp = 146.267402592617
+				tempExt = 146.370609866657
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11785,8 +11785,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 126.86041058207
-				tempExt = 126.911578704877
+				temp = 146.305531975837
+				tempExt = 146.765746936567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11810,8 +11810,8 @@ GAME
 					isEnabled = True
 					crossfeed = True
 					stagingEnabled = False
-					state = Ready
-					dockUId = 0
+					state = Docked (dockee)
+					dockUId = 4093808118
 					dockNodeIdx = 0
 					EVENTS
 					{
@@ -11950,6 +11950,12 @@ GAME
 							actionGroup = None
 						}
 					}
+					DOCKEDVESSEL
+					{
+						vesselName = Goon Space Station
+						vesselType = 7
+						rootUId = 2585324684
+					}
 				}
 			}
 			PART
@@ -11974,8 +11980,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 67
 				mass = 0.2
-				temp = 126.392428956657
-				tempExt = 126.513070197813
+				temp = 145.820305087706
+				tempExt = 145.89775826964
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12169,8 +12175,8 @@ GAME
 				attN = top, 73
 				attN = bottom, 66
 				mass = 0.4
-				temp = 126.383441338962
-				tempExt = 126.504742621537
+				temp = 145.815540780817
+				tempExt = 145.819763916035
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12223,8 +12229,8 @@ GAME
 				sym = 71
 				srfN = srfAttach, 67
 				mass = 0.05
-				temp = 126.387205204698
-				tempExt = 126.444107047097
+				temp = 145.805988580872
+				tempExt = 145.823650109955
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12383,8 +12389,8 @@ GAME
 				sym = 71
 				srfN = srfAttach, 67
 				mass = 0.05
-				temp = 126.385019133116
-				tempExt = 126.44308107398
+				temp = 145.805584026243
+				tempExt = 145.801559786521
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12543,8 +12549,8 @@ GAME
 				sym = 71
 				srfN = srfAttach, 67
 				mass = 0.05
-				temp = 126.384630481643
-				tempExt = 126.442898671003
+				temp = 145.805583971889
+				tempExt = 145.801559761015
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12703,8 +12709,8 @@ GAME
 				sym = 70
 				srfN = srfAttach, 67
 				mass = 0.05
-				temp = 126.385147637667
-				tempExt = 126.443141384088
+				temp = 145.805583971891
+				tempExt = 145.801559761015
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12860,8 +12866,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 67
 				mass = 0.0001
-				temp = 126.395136034439
-				tempExt = 126.4845495503
+				temp = 145.815028000418
+				tempExt = 145.814365277713
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13075,7 +13081,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -13106,8 +13112,8 @@ GAME
 				attN = top, 74
 				attN = bottom, 67
 				mass = 0.2
-				temp = 126.395041276891
-				tempExt = 126.44041658253
+				temp = 145.849874278246
+				tempExt = 145.883828552005
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13128,7 +13134,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.999996
+					amount = 3999.999872
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -13159,8 +13165,8 @@ GAME
 				attN = top, 75
 				attN = bottom, 73
 				mass = 0.2
-				temp = 126.407021682287
-				tempExt = 126.428412787332
+				temp = 145.88636022602
+				tempExt = 145.880731895856
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13181,7 +13187,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.999996
+					amount = 3999.999872
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -13212,8 +13218,8 @@ GAME
 				attN = top, 76
 				attN = bottom, 74
 				mass = 0.2
-				temp = 126.419203138631
-				tempExt = 126.445812481939
+				temp = 145.923742660513
+				tempExt = 145.929506956209
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13234,7 +13240,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.999996
+					amount = 3999.999872
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -13265,8 +13271,8 @@ GAME
 				attN = top, 77
 				attN = bottom, 75
 				mass = 0.2
-				temp = 126.431482650984
-				tempExt = 126.524645039372
+				temp = 145.96182044911
+				tempExt = 146.012920130374
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13287,7 +13293,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.999996
+					amount = 3999.999872
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -13318,8 +13324,8 @@ GAME
 				attN = bottom, 76
 				attN = top, 78
 				mass = 0.5
-				temp = 126.441830546034
-				tempExt = 126.662305710062
+				temp = 145.99734257495
+				tempExt = 146.176727048267
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -13506,7 +13512,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 29.9999960000001
+					amount = 29.9998720000061
 					maxAmount = 30
 					flowState = True
 					isTweakable = True
@@ -13540,8 +13546,8 @@ GAME
 				attN = bottom03, -1
 				attN = bottom04, 79
 				mass = 0.2
-				temp = 126.446155459014
-				tempExt = 126.488527121714
+				temp = 146.026529271246
+				tempExt = 146.391458915732
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13583,8 +13589,8 @@ GAME
 				attN = top, 78
 				attN = bottom, 80
 				mass = 0.02
-				temp = 126.452741755311
-				tempExt = 126.467894114001
+				temp = 145.997542508727
+				tempExt = 146.183701936334
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13773,8 +13779,8 @@ GAME
 				attN = bottom, 79
 				attN = top, 81
 				mass = 0.04
-				temp = 126.469029522199
-				tempExt = 126.614441685579
+				temp = 145.946431504175
+				tempExt = 146.00583669647
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -13904,7 +13910,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -13936,8 +13942,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 80
 				mass = 0.05
-				temp = 126.485435756723
-				tempExt = 126.838720915037
+				temp = 145.900496663057
+				tempExt = 146.065329920133
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13988,8 +13994,8 @@ GAME
 				sym = 94
 				srfN = srfAttach, 81
 				mass = 0.3
-				temp = 126.523707227456
-				tempExt = 127.735290283046
+				temp = 145.906069328924
+				tempExt = 146.514010306437
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14103,8 +14109,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 81
 				mass = 0.005
-				temp = 126.510398803283
-				tempExt = 126.663152186201
+				temp = 145.907514199662
+				tempExt = 145.971488959213
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14221,8 +14227,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 81
 				mass = 0.005
-				temp = 126.510398803283
-				tempExt = 126.663152186201
+				temp = 145.907514199662
+				tempExt = 145.971488959213
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14339,8 +14345,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 81
 				mass = 0.005
-				temp = 126.510398803283
-				tempExt = 126.663152186201
+				temp = 145.907514199662
+				tempExt = 145.971488959213
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14457,8 +14463,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 81
 				mass = 0.005
-				temp = 126.510398803283
-				tempExt = 126.663152186201
+				temp = 145.907514199662
+				tempExt = 145.971488959213
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14575,8 +14581,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 126.501797342491
-				tempExt = 126.655375938926
+				temp = 145.896213180061
+				tempExt = 145.963824087167
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14739,8 +14745,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 126.501797342491
-				tempExt = 126.655375938926
+				temp = 145.896213242615
+				tempExt = 145.963824120599
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14903,8 +14909,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 126.501797342491
-				tempExt = 126.655375938926
+				temp = 145.896213249811
+				tempExt = 145.963824124445
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15067,8 +15073,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 126.501797342491
-				tempExt = 126.655375938926
+				temp = 145.896213180061
+				tempExt = 145.963824087167
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15227,8 +15233,8 @@ GAME
 				attN = top, 78
 				attN = bottom, 92
 				mass = 0.02
-				temp = 126.445968769243
-				tempExt = 126.457026758733
+				temp = 145.975481644867
+				tempExt = 146.164710666865
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15417,8 +15423,8 @@ GAME
 				attN = bottom, 91
 				attN = top, 93
 				mass = 0.04
-				temp = 126.445919461105
-				tempExt = 126.516134402079
+				temp = 145.89857209434
+				tempExt = 146.011937518239
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -15548,7 +15554,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -15580,8 +15586,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 92
 				mass = 0.05
-				temp = 126.440413280959
-				tempExt = 126.633804162481
+				temp = 145.826408995504
+				tempExt = 145.870341468264
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15632,8 +15638,8 @@ GAME
 				sym = 82
 				srfN = srfAttach, 93
 				mass = 0.3
-				temp = 126.460215022404
-				tempExt = 127.129355953953
+				temp = 145.820514014939
+				tempExt = 146.220419324475
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15747,8 +15753,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 93
 				mass = 0.005
-				temp = 126.453614278039
-				tempExt = 126.535901831074
+				temp = 145.827598966301
+				tempExt = 145.835367249698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15865,8 +15871,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 93
 				mass = 0.005
-				temp = 126.453614278039
-				tempExt = 126.535901831074
+				temp = 145.827598966301
+				tempExt = 145.835367249698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15983,8 +15989,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 93
 				mass = 0.005
-				temp = 126.453614278039
-				tempExt = 126.535901831074
+				temp = 145.827598966301
+				tempExt = 145.835367249698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16101,8 +16107,8 @@ GAME
 				sym = 97
 				srfN = srfAttach, 93
 				mass = 0.005
-				temp = 126.453614278039
-				tempExt = 126.535901831074
+				temp = 145.827598966301
+				tempExt = 145.835367249698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16219,8 +16225,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 93
 				mass = 0.05
-				temp = 126.448781882463
-				tempExt = 126.531444743944
+				temp = 145.815593465365
+				tempExt = 145.828459324153
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16383,8 +16389,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 93
 				mass = 0.05
-				temp = 126.448781882463
-				tempExt = 126.531444743944
+				temp = 145.815593406116
+				tempExt = 145.828459292487
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16547,8 +16553,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 93
 				mass = 0.05
-				temp = 126.448781882463
-				tempExt = 126.531444743944
+				temp = 145.815593406116
+				tempExt = 145.828459292487
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16711,8 +16717,8 @@ GAME
 				sym = 101
 				srfN = srfAttach, 93
 				mass = 0.05
-				temp = 126.448781882463
-				tempExt = 126.531444743944
+				temp = 145.815593406116
+				tempExt = 145.828459292487
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16870,8 +16876,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 104
 				mass = 0.02
-				temp = 126.763725828532
-				tempExt = 126.763087457664
+				temp = 145.914564559732
+				tempExt = 145.934446003756
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17065,8 +17071,8 @@ GAME
 				attN = bottom, 103
 				attN = top, 105
 				mass = 0.04
-				temp = 126.768892254429
-				tempExt = 126.864065995103
+				temp = 145.924807865822
+				tempExt = 146.071879085593
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -17196,7 +17202,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -17227,8 +17233,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 104
 				mass = 0.05
-				temp = 126.775804455572
-				tempExt = 127.07155509441
+				temp = 145.925815740851
+				tempExt = 146.317457549596
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17278,8 +17284,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 105
 				mass = 0.3
-				temp = 126.822552584347
-				tempExt = 127.811964740681
+				temp = 145.983253511931
+				tempExt = 147.308079042907
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17301,7 +17307,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.585694, 0.5855519, 0.3962636, -0.3963165)
+					currentRotation = (0.5444179, 0.5442346, 0.451299, -0.4513835)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -17389,8 +17395,8 @@ GAME
 				sym = 110
 				srfN = srfAttach, 105
 				mass = 0.005
-				temp = 126.802680002714
-				tempExt = 126.926454283346
+				temp = 145.959343758372
+				tempExt = 146.12101408331
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17503,8 +17509,8 @@ GAME
 				sym = 110
 				srfN = srfAttach, 105
 				mass = 0.005
-				temp = 126.802680002714
-				tempExt = 126.926454283346
+				temp = 145.959343758372
+				tempExt = 146.12101408331
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17617,8 +17623,8 @@ GAME
 				sym = 110
 				srfN = srfAttach, 105
 				mass = 0.005
-				temp = 126.802680002714
-				tempExt = 126.926454283346
+				temp = 145.959343758372
+				tempExt = 146.12101408331
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17731,8 +17737,8 @@ GAME
 				sym = 109
 				srfN = srfAttach, 105
 				mass = 0.005
-				temp = 126.802680002714
-				tempExt = 126.926454283346
+				temp = 145.959343758372
+				tempExt = 146.12101408331
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -17845,8 +17851,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 105
 				mass = 0.05
-				temp = 126.795699151132
-				tempExt = 126.920088163838
+				temp = 145.95022778343
+				tempExt = 146.112572633699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18005,8 +18011,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 105
 				mass = 0.05
-				temp = 126.795699151132
-				tempExt = 126.920088163838
+				temp = 145.95022778343
+				tempExt = 146.112572633699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18165,8 +18171,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 105
 				mass = 0.05
-				temp = 126.795699151132
-				tempExt = 126.920088163838
+				temp = 145.95022778343
+				tempExt = 146.112572633699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18325,8 +18331,8 @@ GAME
 				sym = 113
 				srfN = srfAttach, 105
 				mass = 0.05
-				temp = 126.795699151132
-				tempExt = 126.920088163838
+				temp = 145.95022778343
+				tempExt = 146.112572633699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18484,8 +18490,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 116
 				mass = 0.02
-				temp = 126.91423120986
-				tempExt = 126.879682717671
+				temp = 145.733047847306
+				tempExt = 145.821382798653
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18679,8 +18685,8 @@ GAME
 				attN = bottom, 115
 				attN = top, 117
 				mass = 0.04
-				temp = 126.927564532172
-				tempExt = 126.960286801258
+				temp = 145.714436095862
+				tempExt = 145.754673370841
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -18810,7 +18816,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -18841,8 +18847,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 116
 				mass = 0.05
-				temp = 126.943913706833
-				tempExt = 127.084878805535
+				temp = 145.697948510849
+				tempExt = 145.729072777416
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18892,8 +18898,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 117
 				mass = 0.3
-				temp = 126.989696848133
-				tempExt = 127.443516104485
+				temp = 145.711224129019
+				tempExt = 146.073089290552
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -18915,7 +18921,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.5535609, -0.5535259, 0.4399937, -0.4399831)
+					currentRotation = (-0.5523434, -0.5523036, 0.4415222, -0.4415152)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -19003,8 +19009,8 @@ GAME
 				sym = 122
 				srfN = srfAttach, 117
 				mass = 0.005
-				temp = 126.96686061869
-				tempExt = 127.017755836385
+				temp = 145.713685608845
+				tempExt = 145.854436430571
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19117,8 +19123,8 @@ GAME
 				sym = 122
 				srfN = srfAttach, 117
 				mass = 0.005
-				temp = 126.96686061869
-				tempExt = 127.017755836385
+				temp = 145.69772270663
+				tempExt = 145.700063371142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19231,8 +19237,8 @@ GAME
 				sym = 122
 				srfN = srfAttach, 117
 				mass = 0.005
-				temp = 126.96686061869
-				tempExt = 127.017755836385
+				temp = 145.69772270663
+				tempExt = 145.700063371142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19345,8 +19351,8 @@ GAME
 				sym = 121
 				srfN = srfAttach, 117
 				mass = 0.005
-				temp = 126.96686061869
-				tempExt = 127.017755836385
+				temp = 145.69772270663
+				tempExt = 145.700063371142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19459,8 +19465,8 @@ GAME
 				sym = 126
 				srfN = srfAttach, 117
 				mass = 0.05
-				temp = 126.963929867066
-				tempExt = 127.014933270876
+				temp = 145.691213007374
+				tempExt = 145.699721964046
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19619,8 +19625,8 @@ GAME
 				sym = 126
 				srfN = srfAttach, 117
 				mass = 0.05
-				temp = 126.963929867066
-				tempExt = 127.014933270876
+				temp = 145.734153234821
+				tempExt = 145.982904771482
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19779,8 +19785,8 @@ GAME
 				sym = 126
 				srfN = srfAttach, 117
 				mass = 0.05
-				temp = 126.963929867066
-				tempExt = 127.014933270876
+				temp = 145.690601137257
+				tempExt = 145.695813625767
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19939,8 +19945,8 @@ GAME
 				sym = 125
 				srfN = srfAttach, 117
 				mass = 0.05
-				temp = 126.963929867066
-				tempExt = 127.014933270876
+				temp = 145.690601137257
+				tempExt = 145.695813625767
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20097,8 +20103,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 128
 				mass = 0.1
-				temp = 127.811457015513
-				tempExt = 128.804023474695
+				temp = 145.614334922626
+				tempExt = 145.626730777184
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -20345,8 +20351,8 @@ GAME
 				attN = bottom, 132
 				attN = top, 127
 				mass = 4
-				temp = 129.169184707301
-				tempExt = 129.524034856085
+				temp = 145.613969829795
+				tempExt = 145.606326547943
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -20781,7 +20787,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 149.999996
+					amount = 149.999872000006
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -20823,8 +20829,8 @@ GAME
 				sym = 131
 				srfN = srfAttach, 128
 				mass = 0.05
-				temp = 128.23023042389
-				tempExt = 128.921392647627
+				temp = 145.612507024238
+				tempExt = 145.600534206957
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -20970,8 +20976,8 @@ GAME
 				sym = 131
 				srfN = srfAttach, 128
 				mass = 0.05
-				temp = 128.23023042389
-				tempExt = 128.921392647627
+				temp = 145.612509559211
+				tempExt = 145.600535184316
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -21117,8 +21123,8 @@ GAME
 				sym = 130
 				srfN = srfAttach, 128
 				mass = 0.05
-				temp = 128.23023042389
-				tempExt = 128.921392647627
+				temp = 145.612523995401
+				tempExt = 145.600540750188
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -21264,8 +21270,8 @@ GAME
 				attN = top, 128
 				attN = bottom, 133
 				mass = 0.5
-				temp = 136.524816463332
-				tempExt = 133.503334820484
+				temp = 145.617740674684
+				tempExt = 145.628014343067
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -21328,8 +21334,8 @@ GAME
 				attN = top, 132
 				attN = bottom, -1
 				mass = 0.5
-				temp = 130.150957178467
-				tempExt = 131.741236025456
+				temp = 145.613787245414
+				tempExt = 145.597392101368
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21663,8 +21669,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 132
 				mass = 0.0001
-				temp = 136.310868342657
-				tempExt = 133.884416221859
+				temp = 145.61851212192
+				tempExt = 145.622331651196
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22214,8 +22220,8 @@ GAME
 						{
 							markUT = 35497.11096303
 							deltaVExpended = NaN
-							dragLosses = 170.963437332975
-							gravityLosses = 759.31772286795
+							dragLosses = 170.96343733348
+							gravityLosses = 758.731881275665
 							steeringLosses = NaN
 							markLAN = 76.8772743225098
 							markLatitude = -0.0972078283826513
@@ -22291,7 +22297,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -22321,8 +22327,8 @@ GAME
 				sym = 136
 				srfN = srfAttach, 132
 				mass = 0.025
-				temp = 133.55907322611
-				tempExt = 133.279194821419
+				temp = 145.677512042132
+				tempExt = 145.89024678895
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22344,7 +22350,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.302049, 0.6393479, -0.6393877, 0.3019671)
+					currentRotation = (-0.6870924, -0.1670746, 0.1670915, 0.6870738)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -22430,8 +22436,8 @@ GAME
 				sym = 135
 				srfN = srfAttach, 132
 				mass = 0.025
-				temp = 133.572933802694
-				tempExt = 133.360429088924
+				temp = 145.640992849572
+				tempExt = 145.724101139085
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22453,7 +22459,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.7068319, -0.01740463, 0.01737799, 0.7069539)
+					currentRotation = (-0.7009373, 0.09267599, -0.09269017, 0.7010754)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -22540,8 +22546,8 @@ GAME
 				sym = 139
 				srfN = srfAttach, 132
 				mass = 0.05
-				temp = 131.263680206585
-				tempExt = 132.41157277913
+				temp = 145.617141598919
+				tempExt = 145.611634404602
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22699,8 +22705,8 @@ GAME
 				sym = 139
 				srfN = srfAttach, 132
 				mass = 0.05
-				temp = 131.263690021562
-				tempExt = 132.411577349229
+				temp = 145.616814212932
+				tempExt = 145.611481977597
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -22858,8 +22864,8 @@ GAME
 				sym = 138
 				srfN = srfAttach, 132
 				mass = 0.05
-				temp = 131.263652932048
-				tempExt = 132.411560079422
+				temp = 145.625527074599
+				tempExt = 145.666140371679
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23017,8 +23023,8 @@ GAME
 				sym = 142
 				srfN = srfAttach, 128
 				mass = 0.1
-				temp = 127.895056930445
-				tempExt = 128.682684326681
+				temp = 145.61655189063
+				tempExt = 145.626621918414
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23241,8 +23247,8 @@ GAME
 				sym = 142
 				srfN = srfAttach, 128
 				mass = 0.1
-				temp = 127.895056916329
-				tempExt = 128.682684319714
+				temp = 145.610931488443
+				tempExt = 145.587987740468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23465,8 +23471,8 @@ GAME
 				sym = 141
 				srfN = srfAttach, 128
 				mass = 0.1
-				temp = 127.895056916329
-				tempExt = 128.682684319714
+				temp = 145.610931488443
+				tempExt = 145.587987740468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23689,8 +23695,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 128
 				mass = 0.005
-				temp = 129.008887071494
-				tempExt = 129.21259647342
+				temp = 145.612694834154
+				tempExt = 145.59779926374
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23802,8 +23808,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 128
 				mass = 0.005
-				temp = 129.008887071494
-				tempExt = 129.21259647342
+				temp = 145.612694834154
+				tempExt = 145.59779926374
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -23915,8 +23921,8 @@ GAME
 				sym = 144
 				srfN = srfAttach, 128
 				mass = 0.005
-				temp = 129.008887071494
-				tempExt = 129.21259647342
+				temp = 145.617176415327
+				tempExt = 145.628827541073
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24028,8 +24034,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 147
 				mass = 0.05
-				temp = 260.281413669083
-				tempExt = 247.894493099066
+				temp = 146.326557981237
+				tempExt = 146.276705995285
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24223,8 +24229,8 @@ GAME
 				attN = top, 146
 				attN = bottom, 156
 				mass = 0.57
-				temp = 262.957507598864
-				tempExt = 260.727583564852
+				temp = 146.340654322058
+				tempExt = 146.357084411408
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24256,7 +24262,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 323.022339603399
+					amount = 0
 					maxAmount = 440
 					flowState = True
 					isTweakable = True
@@ -24290,8 +24296,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.274029426051
-				tempExt = 262.560192470071
+				temp = 146.202648928024
+				tempExt = 146.257507560529
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24452,8 +24458,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.274029426051
-				tempExt = 262.560192470071
+				temp = 146.202648928024
+				tempExt = 146.257507560529
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24614,8 +24620,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.27402602267
-				tempExt = 262.560189090146
+				temp = 146.202882443892
+				tempExt = 146.257626084729
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24776,8 +24782,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.161436100029
-				tempExt = 262.50380190361
+				temp = 146.202817165755
+				tempExt = 146.25759295191
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24938,8 +24944,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.274029316904
-				tempExt = 262.560192361632
+				temp = 146.20265025436
+				tempExt = 146.257508233728
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25100,8 +25106,8 @@ GAME
 				sym = 152
 				srfN = srfAttach, 147
 				mass = 0.08
-				temp = 263.274029426051
-				tempExt = 262.560192470071
+				temp = 146.202659400437
+				tempExt = 146.257512875946
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25257,8 +25263,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 147
 				mass = 0.05
-				temp = 263.541851271759
-				tempExt = 263.05636019464
+				temp = 146.339197688448
+				tempExt = 146.33818846063
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -25349,8 +25355,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 147
 				mass = 0.05
-				temp = 263.540414093876
-				tempExt = 263.060269657868
+				temp = 146.339287402539
+				tempExt = 146.346944876206
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -25443,8 +25449,8 @@ GAME
 				attN = top, 147
 				attN = bottom, 163
 				mass = 1.79
-				temp = 263.448891067652
-				tempExt = 262.920638207117
+				temp = 146.356714863432
+				tempExt = 146.363433026601
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25476,7 +25482,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 488.44877639396
+					amount = 0
 					maxAmount = 1375
 					flowState = True
 					isTweakable = True
@@ -25510,8 +25516,8 @@ GAME
 				sym = 162
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.516031750819
-				tempExt = 263.165423154296
+				temp = 146.233185963503
+				tempExt = 146.276700775395
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25672,8 +25678,8 @@ GAME
 				sym = 162
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.543952615649
-				tempExt = 263.08368690061
+				temp = 146.247940439453
+				tempExt = 146.359163457134
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25834,8 +25840,8 @@ GAME
 				sym = 162
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.579621339608
-				tempExt = 263.101576674837
+				temp = 146.233986870812
+				tempExt = 146.2942127988
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -25996,8 +26002,8 @@ GAME
 				sym = 162
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.554099718684
-				tempExt = 263.088776236712
+				temp = 146.23330526589
+				tempExt = 146.27676101803
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26158,8 +26164,8 @@ GAME
 				sym = 162
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.575769305108
-				tempExt = 263.099644676896
+				temp = 146.233241233752
+				tempExt = 146.276728684521
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26320,8 +26326,8 @@ GAME
 				sym = 161
 				srfN = srfAttach, 156
 				mass = 0.08
-				temp = 263.551028544584
-				tempExt = 263.115630625014
+				temp = 146.23319043641
+				tempExt = 146.276703034022
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26481,8 +26487,8 @@ GAME
 				attN = top, 208
 				attN = bottom, 156
 				mass = 6
-				temp = 263.644226356017
-				tempExt = 263.102317654243
+				temp = 146.372472363094
+				tempExt = 146.399868611248
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26602,8 +26608,8 @@ GAME
 				attN = top, 171
 				attN = bottom, 165
 				mass = 3.57
-				temp = 263.903337196626
-				tempExt = 263.274052512682
+				temp = 146.34617609578
+				tempExt = 146.36903141387
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26624,7 +26630,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 3443.39066129268
+					amount = 3815.38567333588
 					maxAmount = 5000
 					flowState = True
 					isTweakable = True
@@ -26659,8 +26665,8 @@ GAME
 				attN = bottom03, 167
 				attN = bottom04, 166
 				mass = 0.7
-				temp = 263.911729728623
-				tempExt = 263.369357276621
+				temp = 146.277033111628
+				tempExt = 146.22545977151
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26702,8 +26708,8 @@ GAME
 				attN = top, 165
 				attN = bottom, -1
 				mass = 3
-				temp = 263.979336548297
-				tempExt = 263.546681931852
+				temp = 145.936517403264
+				tempExt = 145.970893543337
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -26998,7 +27004,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -27030,8 +27036,8 @@ GAME
 				attN = top, 165
 				attN = bottom, -1
 				mass = 3
-				temp = 263.976104720872
-				tempExt = 263.495290671311
+				temp = 145.936297058926
+				tempExt = 145.970725068385
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -27326,7 +27332,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -27358,8 +27364,8 @@ GAME
 				attN = top, 165
 				attN = bottom, -1
 				mass = 3
-				temp = 263.97623843856
-				tempExt = 263.495358495384
+				temp = 145.94415173832
+				tempExt = 146.020161321179
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -27654,7 +27660,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -27684,8 +27690,8 @@ GAME
 				sym = 191
 				srfN = srfAttach, 165
 				mass = 1.25
-				temp = 263.974601058233
-				tempExt = 263.604493037059
+				temp = 146.2625041143
+				tempExt = 146.236624229661
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -27735,7 +27741,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -27800,7 +27806,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -27927,7 +27933,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 92097.5228230764
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						ToggleStaging
@@ -27969,8 +27975,8 @@ GAME
 				sym = 192
 				srfN = srfAttach, 165
 				mass = 0.08
-				temp = 263.86025109979
-				tempExt = 263.494563816548
+				temp = 146.192562956872
+				tempExt = 146.187598321457
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28129,8 +28135,8 @@ GAME
 				attN = top, 172
 				attN = bottom, 164
 				mass = 1.79
-				temp = 263.848280581308
-				tempExt = 263.316488712219
+				temp = 146.374975908014
+				tempExt = 146.474273025722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28194,8 +28200,8 @@ GAME
 				attN = top, 173
 				attN = bottom, 171
 				mass = 0.57
-				temp = 263.779770518599
-				tempExt = 263.326492797686
+				temp = 146.399469915266
+				tempExt = 146.638376615383
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28227,7 +28233,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 343.952706104658
+					amount = 0
 					maxAmount = 440
 					flowState = True
 					isTweakable = True
@@ -28258,8 +28264,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 172
 				mass = 0.1
-				temp = 263.786670846026
-				tempExt = 263.462247669675
+				temp = 146.387762707279
+				tempExt = 146.5560352181
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28509,8 +28515,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.603233835278
-				tempExt = 263.24756827366
+				temp = 146.279948359621
+				tempExt = 146.436125537989
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28677,8 +28683,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.641781453306
-				tempExt = 263.267080949071
+				temp = 146.279948308182
+				tempExt = 146.436125511879
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -28845,8 +28851,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.667663724491
-				tempExt = 263.280182460038
+				temp = 146.279948889859
+				tempExt = 146.436125807137
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29013,8 +29019,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.637420948421
-				tempExt = 263.264873676805
+				temp = 146.279949349292
+				tempExt = 146.436126040346
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29181,8 +29187,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.665996371104
-				tempExt = 263.279338452052
+				temp = 146.279948210355
+				tempExt = 146.436125462222
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29349,8 +29355,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 172
 				mass = 0.08
-				temp = 263.643619650556
-				tempExt = 263.26801143801
+				temp = 146.279947814406
+				tempExt = 146.436125261238
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29507,8 +29513,8 @@ GAME
 				sym = 202
 				srfN = srfAttach, 171
 				mass = 0.08
-				temp = 263.748216528228
-				tempExt = 263.329675458927
+				temp = 146.258971867249
+				tempExt = 146.344880921911
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29665,8 +29671,8 @@ GAME
 				sym = 203
 				srfN = srfAttach, 164
 				mass = 0.08
-				temp = 263.859064465178
-				tempExt = 263.394709680733
+				temp = 146.362341589155
+				tempExt = 146.606327597504
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29823,8 +29829,8 @@ GAME
 				sym = 204
 				srfN = srfAttach, 164
 				mass = 0.08
-				temp = 263.847550565669
-				tempExt = 263.418630267168
+				temp = 146.362340180655
+				tempExt = 146.606326889134
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -29981,8 +29987,8 @@ GAME
 				sym = 205
 				srfN = srfAttach, 164
 				mass = 0.1
-				temp = 263.8920733235
-				tempExt = 263.387915951696
+				temp = 146.363191416958
+				tempExt = 146.464203581798
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -30240,8 +30246,8 @@ GAME
 				sym = 206
 				srfN = srfAttach, 164
 				mass = 0.1
-				temp = 263.8882926961
-				tempExt = 263.343823967521
+				temp = 146.35103385323
+				tempExt = 146.360935559741
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -30499,8 +30505,8 @@ GAME
 				sym = 207
 				srfN = srfAttach, 164
 				mass = 0.3
-				temp = 263.578859120347
-				tempExt = 262.998255192068
+				temp = 146.05711343765
+				tempExt = 146.232740321372
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -30610,8 +30616,8 @@ GAME
 				attN = top, 193
 				attN = bottom, 187
 				mass = 3.57
-				temp = 263.894145660168
-				tempExt = 263.266416948848
+				temp = 146.362150274764
+				tempExt = 146.424509605662
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -30632,7 +30638,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 3443.54581641204
+					amount = 3818.24462856881
 					maxAmount = 5000
 					flowState = True
 					isTweakable = True
@@ -30667,8 +30673,8 @@ GAME
 				attN = bottom03, 189
 				attN = bottom04, 188
 				mass = 0.7
-				temp = 263.908302207213
-				tempExt = 263.382439065163
+				temp = 146.290064858093
+				tempExt = 146.219197044747
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -30710,8 +30716,8 @@ GAME
 				attN = top, 187
 				attN = bottom, -1
 				mass = 3
-				temp = 263.975623645245
-				tempExt = 263.52597618797
+				temp = 145.95210587558
+				tempExt = 145.981332697525
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -31006,7 +31012,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -31038,8 +31044,8 @@ GAME
 				attN = top, 187
 				attN = bottom, -1
 				mass = 3
-				temp = 263.976295288471
-				tempExt = 263.552590057507
+				temp = 145.948144427353
+				tempExt = 145.978303780841
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -31334,7 +31340,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -31366,8 +31372,8 @@ GAME
 				attN = top, 187
 				attN = bottom, -1
 				mass = 3
-				temp = 263.981746270754
-				tempExt = 263.628585590796
+				temp = 145.949138122194
+				tempExt = 145.988925912232
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -31662,7 +31668,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0999960000000894
+					amount = 0.0998720000060645
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -31692,8 +31698,8 @@ GAME
 				sym = 169
 				srfN = srfAttach, 187
 				mass = 1.25
-				temp = 263.974886062769
-				tempExt = 263.608767449339
+				temp = 146.273449691282
+				tempExt = 146.247465484673
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -31743,7 +31749,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -31808,7 +31814,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -31935,7 +31941,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 92097.5228230764
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						ToggleStaging
@@ -31977,8 +31983,8 @@ GAME
 				sym = 170
 				srfN = srfAttach, 187
 				mass = 0.08
-				temp = 263.872381622258
-				tempExt = 263.529904080437
+				temp = 146.203399495729
+				tempExt = 146.208206873887
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32137,8 +32143,8 @@ GAME
 				attN = top, 194
 				attN = bottom, 186
 				mass = 1.79
-				temp = 263.832736152664
-				tempExt = 263.288407195142
+				temp = 146.444817285397
+				tempExt = 146.741749325059
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32202,8 +32208,8 @@ GAME
 				attN = top, 195
 				attN = bottom, 193
 				mass = 0.57
-				temp = 263.768238475756
-				tempExt = 263.380422504888
+				temp = 146.488996013009
+				tempExt = 147.006173531552
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32235,7 +32241,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 343.952706104658
+					amount = 0
 					maxAmount = 440
 					flowState = True
 					isTweakable = True
@@ -32266,8 +32272,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 194
 				mass = 0.1
-				temp = 263.776651910749
-				tempExt = 263.500165141592
+				temp = 146.492509767088
+				tempExt = 146.853639460033
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32517,8 +32523,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.585893571847
-				tempExt = 263.265162430204
+				temp = 146.405872280445
+				tempExt = 146.68196103184
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32685,8 +32691,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.623148408469
-				tempExt = 263.284020691945
+				temp = 146.40587198665
+				tempExt = 146.68196088271
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -32853,8 +32859,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.648683780025
-				tempExt = 263.29694659554
+				temp = 146.405871987128
+				tempExt = 146.681960882952
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33021,8 +33027,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.619766974061
-				tempExt = 263.282309022806
+				temp = 146.4058719872
+				tempExt = 146.681960882989
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33189,8 +33195,8 @@ GAME
 				sym = 201
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.647550957035
-				tempExt = 263.296373165182
+				temp = 146.405872879379
+				tempExt = 146.681961335857
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33357,8 +33363,8 @@ GAME
 				sym = 200
 				srfN = srfAttach, 194
 				mass = 0.08
-				temp = 263.6257193557
-				tempExt = 263.285322095507
+				temp = 146.405908434298
+				tempExt = 146.681979383464
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33515,8 +33521,8 @@ GAME
 				sym = 180
 				srfN = srfAttach, 193
 				mass = 0.08
-				temp = 263.742874302356
-				tempExt = 263.417736321581
+				temp = 146.351937743966
+				tempExt = 146.524806443713
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33673,8 +33679,8 @@ GAME
 				sym = 181
 				srfN = srfAttach, 186
 				mass = 0.08
-				temp = 263.844878308746
-				tempExt = 263.355596240365
+				temp = 146.35016010571
+				tempExt = 146.541136322451
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33831,8 +33837,8 @@ GAME
 				sym = 182
 				srfN = srfAttach, 186
 				mass = 0.08
-				temp = 263.831325884156
-				tempExt = 263.348799050725
+				temp = 146.393825622737
+				tempExt = 146.701585950778
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33989,8 +33995,8 @@ GAME
 				sym = 183
 				srfN = srfAttach, 186
 				mass = 0.1
-				temp = 263.87683503258
-				tempExt = 263.329512536038
+				temp = 146.400272550721
+				tempExt = 146.664479997173
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -34248,8 +34254,8 @@ GAME
 				sym = 184
 				srfN = srfAttach, 186
 				mass = 0.1
-				temp = 263.880739491314
-				tempExt = 263.354956848456
+				temp = 146.387808503922
+				tempExt = 146.570085993139
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -34507,8 +34513,8 @@ GAME
 				sym = 185
 				srfN = srfAttach, 186
 				mass = 0.3
-				temp = 263.562515821007
-				tempExt = 262.981563475921
+				temp = 146.076872546531
+				tempExt = 146.341676749545
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -34617,8 +34623,8 @@ GAME
 				attN = top, 209
 				attN = bottom, 163
 				mass = 6.5
-				temp = 263.531149074547
-				tempExt = 263.004061024464
+				temp = 146.455390810523
+				tempExt = 146.638547566515
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -34967,8 +34973,8 @@ GAME
 				attN = top, 214
 				attN = bottom, 208
 				mass = 1.79
-				temp = 263.4649826524
-				tempExt = 263.016673676798
+				temp = 146.544061648096
+				tempExt = 146.968206005347
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35000,7 +35006,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 488.44877639396
+					amount = 0
 					maxAmount = 1375
 					flowState = True
 					isTweakable = True
@@ -35030,8 +35036,8 @@ GAME
 				sym = 211
 				srfN = srfAttach, 209
 				mass = 0.05
-				temp = 263.615982374935
-				tempExt = 263.354010347419
+				temp = 146.516473144706
+				tempExt = 146.675696102177
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -35123,8 +35129,8 @@ GAME
 				sym = 210
 				srfN = srfAttach, 209
 				mass = 0.05
-				temp = 263.621741585033
-				tempExt = 263.343691147411
+				temp = 146.472100547486
+				tempExt = 146.692255731646
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -35216,8 +35222,8 @@ GAME
 				sym = 213
 				srfN = srfAttach, 209
 				mass = 0.08
-				temp = 263.232250006815
-				tempExt = 262.907717975276
+				temp = 146.399528658765
+				tempExt = 146.661047331992
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35374,8 +35380,8 @@ GAME
 				sym = 212
 				srfN = srfAttach, 209
 				mass = 0.08
-				temp = 263.232293987491
-				tempExt = 262.907740122842
+				temp = 146.39952865754
+				tempExt = 146.661047331374
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35533,8 +35539,8 @@ GAME
 				attN = top, 221
 				attN = bottom, 209
 				mass = 0.57
-				temp = 263.370432067684
-				tempExt = 263.211292194165
+				temp = 146.58301417996
+				tempExt = 147.189079825895
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35566,7 +35572,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 343.952706104658
+					amount = 0
 					maxAmount = 440
 					flowState = True
 					isTweakable = True
@@ -35600,8 +35606,8 @@ GAME
 				sym = 220
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.066267741147
-				tempExt = 262.919280693644
+				temp = 146.451011251647
+				tempExt = 146.79489792552
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35762,8 +35768,8 @@ GAME
 				sym = 220
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.077669352428
-				tempExt = 262.925052225111
+				temp = 146.451011251262
+				tempExt = 146.794897925324
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -35924,8 +35930,8 @@ GAME
 				sym = 220
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.086520522625
-				tempExt = 262.929532714404
+				temp = 146.451011251405
+				tempExt = 146.794897925397
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36086,8 +36092,8 @@ GAME
 				sym = 220
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.076611672886
-				tempExt = 262.924516824455
+				temp = 146.451011251215
+				tempExt = 146.7948979253
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36248,8 +36254,8 @@ GAME
 				sym = 220
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.086233745535
-				tempExt = 262.929387546981
+				temp = 146.451011263548
+				tempExt = 146.794897931561
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36410,8 +36416,8 @@ GAME
 				sym = 219
 				srfN = srfAttach, 214
 				mass = 0.08
-				temp = 263.0796728254
-				tempExt = 262.926066389294
+				temp = 146.451011278456
+				tempExt = 146.794897939128
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36568,8 +36574,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 214
 				mass = 0.1
-				temp = 263.332810742216
-				tempExt = 263.341252951894
+				temp = 146.564655487977
+				tempExt = 147.004465345954
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36810,8 +36816,8 @@ GAME
 				attN = top, 224
 				attN = bottom, 163
 				mass = 1
-				temp = 218.696028068205
-				tempExt = 219.243786469972
+				temp = 145.698303474418
+				tempExt = 145.714113088016
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36872,8 +36878,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 222
 				mass = 0.24
-				temp = 218.675937265532
-				tempExt = 218.954477681746
+				temp = 145.698311277515
+				tempExt = 145.706071221543
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -36899,7 +36905,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -36958,7 +36964,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 299.999996
+					amount = 299.999872000006
 					maxAmount = 300
 					flowState = True
 					isTweakable = True
@@ -36989,8 +36995,8 @@ GAME
 				attN = top, 225
 				attN = bottom, 222
 				mass = 4.25
-				temp = 220.391656081881
-				tempExt = 220.127992493863
+				temp = 145.743806869208
+				tempExt = 145.739589756592
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -37040,7 +37046,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -37104,7 +37110,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -37168,7 +37174,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -37232,7 +37238,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						StartResourceConverter
@@ -37359,7 +37365,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 313766.604486057
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						ToggleStaging
@@ -37402,8 +37408,8 @@ GAME
 				attN = top, 227
 				attN = bottom, 224
 				mass = 2
-				temp = 220.674831611583
-				tempExt = 220.529321972043
+				temp = 145.762807631387
+				tempExt = 145.758167714151
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -37493,8 +37499,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 225
 				mass = 1
-				temp = 163.649197656831
-				tempExt = 163.852534601827
+				temp = 143.867441703818
+				tempExt = 143.889521569614
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -37516,7 +37522,7 @@ GAME
 				{
 					name = ModuleDeployableRadiator
 					isEnabled = True
-					currentRotation = (8.368493E-05, -0.02350835, -0.0001497269, -0.9997237)
+					currentRotation = (-5.885959E-07, 0.1138629, 2.384186E-06, 0.9934965)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -37667,8 +37673,8 @@ GAME
 				attN = top, 228
 				attN = bottom, 225
 				mass = 0.2
-				temp = 221.067180033241
-				tempExt = 220.943706788494
+				temp = 145.790543820954
+				tempExt = 145.783905204811
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -37766,15 +37772,15 @@ GAME
 				attN = top, 230
 				attN = bottom, 227
 				mass = 0.2
-				temp = 221.528179815494
-				tempExt = 221.341546626382
+				temp = 145.823255563544
+				tempExt = 145.810576898682
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/NASA
-				rTrf = HECS2.ProbeCore (Tom's Mining Ship)
+				rTrf = HECS2.ProbeCore
 				modCost = 0
 				EVENTS
 				{
@@ -37961,7 +37967,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.999996
+					amount = 999.999872000006
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -37990,8 +37996,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 228
 				mass = 0.0001
-				temp = 221.722460442801
-				tempExt = 221.712675276529
+				temp = 145.821924188077
+				tempExt = 145.816996625432
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -38212,7 +38218,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99999600000009
+					amount = 4.99987200000606
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -38243,8 +38249,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 228
 				mass = 0.08
-				temp = 221.831678103461
-				tempExt = 221.778362300842
+				temp = 145.916022498471
+				tempExt = 145.906013584021
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -38331,7 +38337,7 @@ GAME
 					CoreTempGoalAdjustment = 0
 					CoreThermalEnergy = 300863.47998297
 					stagingEnabled = True
-					lastUpdateTime = 1718582.45917948
+					lastUpdateTime = 1728492.98418204
 					EVENTS
 					{
 						ToggleStaging
@@ -38373,8 +38379,8 @@ GAME
 				sym = 232
 				srfN = srfAttach, 228
 				mass = 0.05
-				temp = 222.137678094812
-				tempExt = 221.831463026406
+				temp = 145.855187189992
+				tempExt = 145.837606120943
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -38466,8 +38472,8 @@ GAME
 				sym = 231
 				srfN = srfAttach, 228
 				mass = 0.05
-				temp = 222.137678094812
-				tempExt = 221.831463026406
+				temp = 145.855187189992
+				tempExt = 145.837606120943
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -38558,8 +38564,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 228
 				mass = 0.05
-				temp = 222.137678094812
-				tempExt = 221.831463026406
+				temp = 145.855187189992
+				tempExt = 145.837606120943
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -38627,6 +38633,3830 @@ GAME
 					}
 					ACTIONS
 					{
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPort2
+				cid = 4294690944
+				uid = 4093808118
+				mid = 1465437002
+				launchID = 9
+				parent = 65
+				position = 0.0131524801254272,-15.6973075866699,0.00960206985473633
+				rotation = 0.0005876357,-0.01337081,-0.0007915049,-0.9999102
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, -1
+				attN = bottom, 235
+				mass = 0.05
+				temp = 149.536086511375
+				tempExt = 149.536618572923
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = dockingPort2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					crossfeed = True
+					stagingEnabled = False
+					state = Docked (docker)
+					dockUId = 3891392293
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Port: Enable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+						EnableXFeedAction
+						{
+							actionGroup = None
+						}
+						DisableXFeedAction
+						{
+							actionGroup = None
+						}
+						ToggleXFeedAction
+						{
+							actionGroup = None
+						}
+					}
+					DOCKEDVESSEL
+					{
+						vesselName = Fuel Tank
+						vesselType = 3
+						rootUId = 2301168380
+					}
+				}
+			}
+			PART
+			{
+				name = adapterSize2-Size1
+				cid = 4294695768
+				uid = 2914029085
+				mid = 1465437002
+				launchID = 9
+				parent = 234
+				position = 0.01515793800354,-16.9473037719727,0.011049211025238
+				rotation = 0.0005876357,-0.01337081,-0.0007915049,-0.9999102
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 234
+				attN = bottom, 246
+				mass = 0.57
+				temp = 149.571443741259
+				tempExt = 150.204825585721
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterSize2-Size1
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 360
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 440
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294682918
+				uid = 1551335480
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = -1.09250366687775,-16.6361408233643,0.0403035879135132
+				rotation = 0.7114926,-0.08148364,0.6928142,0.08454382
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 237
+				sym = 238
+				sym = 239
+				srfN = srfAttach, 235
+				mass = 0.015
+				temp = 149.7746429856
+				tempExt = 149.996196596274
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294682648
+				uid = 3973128230
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 0.0442702770233154,-16.6330795288086,1.11784148216248
+				rotation = 0.9928318,0.002366309,-0.01318355,0.1187686
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 236
+				sym = 238
+				sym = 239
+				srfN = srfAttach, 235
+				mass = 0.015
+				temp = 149.7746429856
+				tempExt = 149.996196596274
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294682610
+				uid = 518474582
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 1.12180519104004,-16.6326675415039,-0.0189287066459656
+				rotation = 0.6925837,0.0848301,-0.7114584,0.08342034
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 236
+				sym = 237
+				sym = 239
+				srfN = srfAttach, 235
+				mass = 0.015
+				temp = 149.7746429856
+				tempExt = 149.996196596274
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294682572
+				uid = 754237533
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = -0.0149686336517334,-16.6357307434082,-1.09646701812744
+				rotation = -0.01337066,0.1176016,-0.9929706,-0.0007944163
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 236
+				sym = 237
+				sym = 238
+				srfN = srfAttach, 235
+				mass = 0.015
+				temp = 149.7746429856
+				tempExt = 149.996196596274
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678764
+				uid = 437974666
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = -1.00074243545532,-17.410327911377,0.0387676954269409
+				rotation = 0.002163889,-0.01320767,0.1173991,-0.9929947
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 241
+				sym = 242
+				sym = 243
+				sym = 244
+				sym = 245
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983386453827
+				tempExt = 150.071373364545
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678514
+				uid = 1499584261
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = -0.46886682510376,-17.4084796905518,0.905606031417847
+				rotation = 0.0613595,-0.507842,0.1011723,-0.8532855
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 240
+				sym = 242
+				sym = 243
+				sym = 244
+				sym = 245
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983405970442
+				tempExt = 150.071383270016
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678470
+				uid = 84590124
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 0.547760367393494,-17.4068813323975,0.878405451774597
+				rotation = 0.1041139,-0.8664005,0.05783627,-0.4849389
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 240
+				sym = 241
+				sym = 243
+				sym = 244
+				sym = 245
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983401248144
+				tempExt = 150.071380873259
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678426
+				uid = 629723429
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 1.03251647949219,-17.4071388244629,-0.0156194269657135
+				rotation = 0.118971,-0.9928077,-0.0009968509,0.01334655
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 240
+				sym = 241
+				sym = 242
+				sym = 244
+				sym = 245
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983385280612
+				tempExt = 150.071372769091
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678382
+				uid = 4100809881
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 0.500645518302917,-17.4089908599854,-0.88244366645813
+				rotation = 0.10195,-0.8531928,-0.05956286,0.5080559
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 240
+				sym = 241
+				sym = 242
+				sym = 243
+				sym = 245
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983403569016
+				tempExt = 150.071382051195
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294678338
+				uid = 1989630657
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = -0.515967130661011,-17.4105854034424,-0.855247616767883
+				rotation = 0.05761155,-0.4849657,-0.1021691,0.8666318
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 240
+				sym = 241
+				sym = 242
+				sym = 243
+				sym = 244
+				srfN = srfAttach, 235
+				mass = 0.08
+				temp = 149.983401137337
+				tempExt = 150.07138081702
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = adapterMk3-Size2
+				cid = 4294698500
+				uid = 4199273758
+				mid = 1465437002
+				launchID = 9
+				parent = 235
+				position = 0.0201530456542969,-20.0722980499268,0.0146569013595581
+				rotation = 0.0005876357,-0.01337081,-0.0007915049,-0.9999102
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 235
+				attN = bottom, 247
+				mass = 1.79
+				temp = 149.51045250059
+				tempExt = 150.378960834916
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterMk3-Size2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 1125
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 1375
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = adapterSize3-Mk3
+				cid = 4294702602
+				uid = 3292941371
+				mid = 1465437002
+				launchID = 9
+				parent = 246
+				position = 0.0246438980102539,-22.8847923278809,0.0178961753845215
+				rotation = 0.0005876357,-0.01337081,-0.0007915049,-0.9999102
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 246
+				attN = bottom, 248
+				mass = 1.79
+				temp = 149.312850533663
+				tempExt = 150.023182755326
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterSize3-Mk3
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 1125
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 1375
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = Size3LargeTank
+				cid = 4294704192
+				uid = 2301168380
+				mid = 1465437002
+				launchID = 9
+				parent = 247
+				position = 0.0321211814880371,-27.5622730255127,0.0232956409454346
+				rotation = 0.0005876357,-0.01337081,-0.0007915049,-0.9999102
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 247
+				attN = bottom, 249
+				mass = 9
+				temp = 149.071685868469
+				tempExt = 149.652614610505
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = Size3LargeTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 6480
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 3245.28377812667
+					maxAmount = 7920
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = adapterSize3-Mk3
+				cid = 4294701990
+				uid = 2228312623
+				mid = 1465437002
+				launchID = 9
+				parent = 248
+				position = 0.0395984649658203,-32.2397613525391,0.0286937952041626
+				rotation = -0.9999102,-0.0007915021,0.0133708,-0.0005876361
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 250
+				attN = bottom, 248
+				mass = 1.79
+				temp = 149.236136269361
+				tempExt = 149.901665533945
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterSize3-Mk3
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 1125
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 1375
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = adapterMk3-Size2
+				cid = 4294697754
+				uid = 184712807
+				mid = 1465437002
+				launchID = 9
+				parent = 249
+				position = 0.0440893173217773,-35.0522575378418,0.031933069229126
+				rotation = -0.9999102,-0.0007915021,0.0133708,-0.0005876361
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 251
+				attN = bottom, 249
+				mass = 1.79
+				temp = 149.36984628805
+				tempExt = 150.101393735172
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterMk3-Size2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 1125
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 1375
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = adapterSize2-Size1
+				cid = 4294678094
+				uid = 3791983492
+				mid = 1465437002
+				launchID = 9
+				parent = 250
+				position = 0.0490841865539551,-38.1772499084473,0.0355409383773804
+				rotation = -0.9999102,-0.0007915021,0.0133708,-0.0005876361
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 252
+				attN = bottom, 250
+				mass = 0.57
+				temp = 149.40733464942
+				tempExt = 149.988717216362
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = adapterSize2-Size1
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 360
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 440
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = dockingPort2
+				cid = 4294678052
+				uid = 699077684
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 0.0510897636413574,-39.4272499084473,0.0369877815246582
+				rotation = -0.9999102,-0.0007915021,0.0133708,-0.0005876361
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 6
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, -1
+				attN = bottom, 251
+				mass = 0.05
+				temp = 149.422498431391
+				tempExt = 149.714202110312
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = dockingPort2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					crossfeed = True
+					stagingEnabled = False
+					state = Ready
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Port: Enable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+						EnableXFeedAction
+						{
+							actionGroup = None
+						}
+						DisableXFeedAction
+						{
+							actionGroup = None
+						}
+						ToggleXFeedAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294678006
+				uid = 3598167704
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = -1.05756282806396,-38.4918899536133,0.065518856048584
+				rotation = 0.08342035,-0.7114583,-0.08483008,-0.6925835
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 254
+				sym = 255
+				sym = 256
+				srfN = srfAttach, 251
+				mass = 0.015
+				temp = 149.440418346433
+				tempExt = 149.723750409829
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294677968
+				uid = 1656010180
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 0.0199718475341797,-38.4914779663086,-1.07125115394592
+				rotation = 0.1187686,-0.01318349,-0.002366335,-0.9928317
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 253
+				sym = 255
+				sym = 256
+				srfN = srfAttach, 251
+				mass = 0.015
+				temp = 149.440418346433
+				tempExt = 149.723750409829
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294677930
+				uid = 1968459166
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 1.15674591064453,-38.4884147644043,0.00628602504730225
+				rotation = 0.08454382,0.6928141,0.08148361,-0.7114925
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 253
+				sym = 254
+				sym = 256
+				srfN = srfAttach, 251
+				mass = 0.015
+				temp = 149.440418346433
+				tempExt = 149.723750409829
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				cid = 4294677892
+				uid = 1381467976
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 0.0792112350463867,-38.4888229370117,1.14305698871613
+				rotation = 0.00079442,0.9929706,0.1176016,-0.01337058
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 253
+				sym = 254
+				sym = 255
+				srfN = srfAttach, 251
+				mass = 0.015
+				temp = 149.440418346433
+				tempExt = 149.723750409829
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = spotLight2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					uiWriteLock = False
+					lightR = 1
+					lightG = 1
+					lightB = 1
+					stagingEnabled = True
+					lightR_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightG_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					lightB_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 1
+						stepIncrement = 0.05
+					}
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677854
+				uid = 2077098079
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = -0.968274116516113,-37.7174186706543,0.0622093677520752
+				rotation = -0.9928076,-0.118971,0.01334649,0.0009968693
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 258
+				sym = 259
+				sym = 260
+				sym = 261
+				sym = 262
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.300112723043
+				tempExt = 149.617319487163
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677810
+				uid = 1531586164
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = -0.483518123626709,-37.7176704406738,-0.831815242767334
+				rotation = -0.8664004,-0.1041139,-0.484939,-0.05783626
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 257
+				sym = 259
+				sym = 260
+				sym = 261
+				sym = 262
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.3001009848
+				tempExt = 149.617313529497
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677756
+				uid = 2305894731
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 0.533113956451416,-37.7160797119141,-0.859002470970154
+				rotation = -0.5078419,-0.06135951,-0.8532854,-0.1011722
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 257
+				sym = 258
+				sym = 260
+				sym = 261
+				sym = 262
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.300078768234
+				tempExt = 149.617302253628
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677702
+				uid = 2404961865
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 1.06498503684998,-37.7142295837402,0.00782239437103271
+				rotation = -0.01320757,-0.002163908,-0.9929947,-0.1173991
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 257
+				sym = 258
+				sym = 259
+				sym = 261
+				sym = 262
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.300151033579
+				tempExt = 149.617338931418
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677648
+				uid = 2133980270
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = 0.580209255218506,-37.7139739990234,0.901837706565857
+				rotation = 0.4849657,0.05761152,-0.8666318,-0.1021691
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 257
+				sym = 258
+				sym = 259
+				sym = 260
+				sym = 262
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.300116330188
+				tempExt = 149.617321317945
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = vernierEngine
+				cid = 4294677594
+				uid = 1516273374
+				mid = 1465437002
+				launchID = 9
+				parent = 251
+				position = -0.436417579650879,-37.7155685424805,0.929038405418396
+				rotation = 0.8531927,0.10195,-0.5080558,-0.05956287
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 5
+				sidx = -1
+				attm = 1
+				sym = 257
+				sym = 258
+				sym = 259
+				sym = 260
+				sym = 261
+				srfN = srfAttach, 251
+				mass = 0.08
+				temp = 149.300060583352
+				tempExt = 149.617293024014
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/NASA
+				rTrf = vernierEngine
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					rcsEnabled = True
+					thrustPercentage = 100
+					currentShowToggles = False
+					enableYaw = True
+					enablePitch = True
+					enableRoll = True
+					enableX = True
+					enableY = True
+					enableZ = True
+					useThrottle = False
+					fullThrust = False
+					stagingEnabled = True
+					thrustPercentage_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 0.5
+					}
+					enableYaw_UIFlight
+					{
+						controlEnabled = True
+					}
+					enablePitch_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableRoll_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableX_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableY_UIFlight
+					{
+						controlEnabled = True
+					}
+					enableZ_UIFlight
+					{
+						controlEnabled = True
+					}
+					useThrottle_UIFlight
+					{
+						controlEnabled = True
+					}
+					fullThrust_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						ToggleToggles
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Actuation Toggles
+							guiName = Show Actuation Toggles
+							category = Actuation Toggles
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = RCS: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
 					}
 				}
 			}
@@ -42417,8 +46247,8 @@ GAME
 			prst = False
 			ref = 0
 			ctrl = True
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
