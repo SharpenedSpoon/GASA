@@ -2,7 +2,7 @@ ship = Mun Fuel Depot
 version = 1.1.0
 description = 
 type = VAB
-size = 13.08933,61.93023,4.939553
+size = 13.08933,61.93023,4.939552
 PART
 {
 	part = Size3LargeTank_4293466536
@@ -27,8 +27,6 @@ PART
 	link = fuelTank2-2_4293324016
 	link = fuelTank2-2_4293323716
 	link = Size3LargeTank_4293296484
-	link = solarPanels1_4293077680
-	link = solarPanels1_4293077528
 	attN = top,adapterSize3-Mk3_4293462528
 	attN = bottom,Size3LargeTank_4293296484
 	EVENTS
@@ -5394,7 +5392,7 @@ PART
 	pos = 3.105315,31.67762,-0.1110895
 	attPos = 0,0,0
 	attPos0 = -1.154507E-13,7.5,8.236523E-21
-	rot = 1.773374E-28,1,8.077936E-28,-4.37114E-08
+	rot = 1.773374E-28,1,0,-4.37114E-08
 	attRot = 0,0,0,1
 	attRot0 = 2.395771E-21,-8.42937E-08,2.84217E-14,1
 	mir = 1,1,1
@@ -5536,7 +5534,7 @@ PART
 	pos = 3.874366,35.30187,-0.1110896
 	attPos = 0,0,0
 	attPos0 = -0.7690511,3.624245,4.452612E-08
-	rot = -0.5000001,0.4999999,0.5000001,-0.4999999
+	rot = -0.5000001,0.4999999,0.5000001,-0.5
 	attRot = 0,0,0,1
 	attRot0 = -0.5000001,0.5,-0.5000001,0.4999999
 	mir = 1,1,1
@@ -5984,7 +5982,7 @@ PART
 	pos = 3.105315,19.36232,-0.1110895
 	attPos = 0,0,0
 	attPos0 = 7.412406E-14,-4.815308,-5.288185E-21
-	rot = 1.773374E-28,1,8.077936E-28,-4.37114E-08
+	rot = 1.773374E-28,1,0,-4.37114E-08
 	attRot = 0,0,0,1
 	attRot0 = 2.395771E-21,-8.42937E-08,2.84217E-14,1
 	mir = 1,1,1
@@ -6959,7 +6957,7 @@ PART
 	pos = 0.0937195,30.18226,1.096321
 	attPos = 0,0,0
 	attPos0 = 0,0.09963608,1.20741
-	rot = -1.264406E-07,-0.7071068,-1.264406E-07,-0.7071068
+	rot = -1.264406E-07,-0.7071069,-1.264406E-07,-0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -1.264406E-07,-0.7071069,-1.264406E-07,-0.7071068
 	mir = 1,1,1
@@ -7567,7 +7565,7 @@ PART
 	pos = 0.09371971,56.87553,1.102014
 	attPos = 0,0,0
 	attPos0 = 2.086163E-07,0.08290482,1.213103
-	rot = -1.264406E-07,-0.7071068,-1.264406E-07,-0.7071068
+	rot = -1.264406E-07,-0.7071069,-1.264406E-07,-0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -1.264406E-07,-0.7071069,-1.264406E-07,-0.7071068
 	mir = 1,1,1
@@ -7871,7 +7869,7 @@ PART
 	pos = -4.932249,19.73947,-0.1110889
 	attPos = 0,0,0
 	attPos0 = -2.014373,-4.438156,3.293115E-08
-	rot = 2.763363E-14,0.7071068,-2.763363E-14,0.7071068
+	rot = 2.763363E-14,0.7071069,-2.763363E-14,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 7.536448E-15,0.7071068,-7.536449E-15,0.7071068
 	mir = 1,1,1
@@ -7900,10 +7898,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 8.08484
+		scaleFactor = 8.084835
 		height = 20.39962
 		stagingEnabled = True
-		towerRot = -2.763363E-14,-0.7071068,2.763363E-14,0.7071068
+		towerRot = -2.763363E-14,-0.7071069,2.763363E-14,0.7071068
 		EVENTS
 		{
 			Release
@@ -8074,7 +8072,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 8.08484
+		scaleFactor = 8.084835
 		height = 20.39962
 		stagingEnabled = True
 		towerRot = 2.763363E-14,-0.7071067,2.763362E-14,-0.7071069
@@ -8209,208 +8207,6 @@ PART
 		}
 		ACTIONS
 		{
-		}
-	}
-}
-PART
-{
-	part = solarPanels1_4293077680
-	partName = Part
-	pos = 0.09371966,50.38201,-1.960143
-	attPos = 0,0,0
-	attPos0 = 1.639128E-07,3.204388,-1.849054
-	rot = 1.253586E-07,0.7071069,-1.253586E-07,-0.7071068
-	attRot = 0,0,0,1
-	attRot0 = 1.253586E-07,0.7071069,-1.253586E-07,-0.7071068
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = solarPanels1_4293077528
-	srfN = srfAttach,Size3LargeTank_4293466536
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		currentRotation = (-0.7071068, 0, 0, 0.7071068)
-		stateString = RETRACTED
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		efficiencyMult = 1
-		launchUT = -1
-		stagingEnabled = True
-		EVENTS
-		{
-			Extend
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Extend Panels
-				guiName = Extend Panels
-				category = Extend Panels
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = True
-			}
-			Retract
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Retract Panels
-				guiName = Retract Panels
-				category = Retract Panels
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-			}
-			ExtendAction
-			{
-				actionGroup = None
-			}
-			RetractAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = solarPanels1_4293077528
-	partName = Part
-	pos = 0.0937195,50.38201,1.737964
-	attPos = 0,0,0
-	attPos0 = 0,3.204388,1.849054
-	rot = -1.253586E-07,-0.7071068,-1.253586E-07,-0.7071068
-	attRot = 0,0,0,1
-	attRot0 = -1.253586E-07,-0.7071068,-1.253586E-07,-0.7071068
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = solarPanels1_4293077680
-	srfN = srfAttach,Size3LargeTank_4293466536
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		currentRotation = (-0.7071068, 0, 0, 0.7071068)
-		stateString = RETRACTED
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		efficiencyMult = 1
-		launchUT = -1
-		stagingEnabled = True
-		EVENTS
-		{
-			Extend
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Extend Panels
-				guiName = Extend Panels
-				category = Extend Panels
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = True
-			}
-			Retract
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Retract Panels
-				guiName = Retract Panels
-				category = Retract Panels
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-			}
-			ExtendAction
-			{
-				actionGroup = None
-			}
-			RetractAction
-			{
-				actionGroup = None
-			}
 		}
 	}
 }
