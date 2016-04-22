@@ -883,7 +883,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 13767201.2180442
+		UT = 13767235.8580435
 		activeVessel = 0
 		mapViewFiltering = 1022
 		VESSEL
@@ -895,17 +895,17 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 6536146.39786228
+			met = 13767190.958044
 			lct = 21.9599999999996
-			lastUT = 6536168.35786228
+			lastUT = 13767212.918044
 			root = 0
-			lat = 0.00716824631450548
-			lon = 83.9487557888258
-			alt = 124941.096149524
+			lat = -0.00361429152498277
+			lon = 68.4374691378785
+			alt = 125618.510364647
 			hgt = -1
-			nrm = 0.7880785,0.2828377,0.5467496
-			rot = -0.150158,0.4043007,0.02634473,-0.9018312
-			CoM = -0.1570449,-21.83164,-1.027004
+			nrm = 0.9172437,0.2447103,0.3142944
+			rot = -0.1501473,0.4037334,0.02644551,-0.9020842
+			CoM = -0.1564854,-21.83162,-1.027982
 			stg = 1
 			prst = False
 			ref = 2834694748
@@ -915,13 +915,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 725271.774102328
-				ECC = 0.000473347205574172
-				INC = 0.00656584496823602
-				LPE = 132.893894945044
-				LAN = 163.379512673967
-				MNA = 6.09979309392773
-				EPH = 6536168.35786228
+				SMA = 725253.130946881
+				ECC = 0.000497811749525747
+				INC = 0.00668445614691067
+				LPE = 133.608641462035
+				LAN = 162.055968411218
+				MNA = 3.05134190352761
+				EPH = 13767212.918044
 				REF = 1
 			}
 			PART
@@ -946,8 +946,8 @@ GAME
 				attN = bottom, 1
 				attN = top, -1
 				mass = 1.76
-				temp = 256.299186157478
-				tempExt = 256.309836458931
+				temp = 248.078172872419
+				tempExt = 248.197820122952
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1290,6 +1290,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -1358,7 +1383,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.999476708066
+					amount = 199.999572222239
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -1400,8 +1425,8 @@ GAME
 				attN = top, 0
 				attN = bottom, 2
 				mass = 0.2
-				temp = 256.208272758341
-				tempExt = 256.018712114971
+				temp = 248.066788067163
+				tempExt = 247.92866307197
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1422,7 +1447,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.99947670807
+					amount = 3999.99957222224
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -1453,8 +1478,8 @@ GAME
 				attN = top, 1
 				attN = bottom, 3
 				mass = 2.5
-				temp = 256.234919310435
-				tempExt = 256.06114561495
+				temp = 248.074554966636
+				tempExt = 248.079303058589
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -1692,6 +1717,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -1780,8 +1830,8 @@ GAME
 				attN = top, 2
 				attN = bottom, 4
 				mass = 2.5
-				temp = 256.231035857651
-				tempExt = 256.096291555665
+				temp = 248.073883846106
+				tempExt = 248.061404164203
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2020,6 +2070,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -2108,8 +2183,8 @@ GAME
 				attN = top, 5
 				attN = bottom, 3
 				mass = 0.1
-				temp = 256.186821931123
-				tempExt = 256.035942000699
+				temp = 248.059611975195
+				tempExt = 247.985443950478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2154,8 +2229,8 @@ GAME
 				attN = top, 4
 				attN = bottom, 10
 				mass = 1.5
-				temp = 256.220800403963
-				tempExt = 256.029372519966
+				temp = 248.0718225546
+				tempExt = 247.975798969179
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2196,8 +2271,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 255.998786325871
-				tempExt = 255.863085293883
+				temp = 248.04912302973
+				tempExt = 247.913576830137
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2368,6 +2443,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -2391,8 +2506,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 256.141072703242
-				tempExt = 255.937246285305
+				temp = 248.058555052068
+				tempExt = 247.909966848766
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2563,6 +2678,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -2586,8 +2741,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 256.224290582857
-				tempExt = 256.254463257629
+				temp = 248.062887717671
+				tempExt = 247.956139192385
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2752,6 +2907,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -2775,8 +2970,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 256.200752978709
-				tempExt = 255.99583337775
+				temp = 248.080538237782
+				tempExt = 248.227882054608
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2941,6 +3136,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -2964,8 +3199,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = 256.165793836548
-				tempExt = 255.947899510514
+				temp = 248.056754595792
+				tempExt = 247.88785172142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3136,6 +3371,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -3159,8 +3434,8 @@ GAME
 				srfN = srfAttach, 4
 				attN = bottom01, -1
 				mass = 0.075
-				temp = 256.165025352248
-				tempExt = 255.918153392705
+				temp = 248.066772420986
+				tempExt = 247.89711235742
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3225,8 +3500,8 @@ GAME
 				srfN = srfAttach, 4
 				attN = bottom01, -1
 				mass = 0.075
-				temp = 256.22886974337
-				tempExt = 256.177330551505
+				temp = 248.06620387687
+				tempExt = 247.885018694093
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3294,8 +3569,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208025697789
-				tempExt = 256.038119906575
+				temp = 248.062160752436
+				tempExt = 247.965849073512
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3458,6 +3733,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -3486,8 +3801,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208025697789
-				tempExt = 256.038119906575
+				temp = 248.062160752436
+				tempExt = 247.965849073512
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3650,6 +3965,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -3678,8 +4033,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208025697789
-				tempExt = 256.038119906575
+				temp = 248.062160752436
+				tempExt = 247.965849073512
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -3842,6 +4197,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -3870,8 +4265,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208025697789
-				tempExt = 256.038119906575
+				temp = 248.062160752436
+				tempExt = 247.965849073512
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4034,6 +4429,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -4062,8 +4497,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208679818881
-				tempExt = 256.019666142299
+				temp = 248.063241659233
+				tempExt = 247.975229076152
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4226,6 +4661,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -4254,8 +4729,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208679818881
-				tempExt = 256.019666142299
+				temp = 248.063241659233
+				tempExt = 247.975229076152
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4418,6 +4893,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -4446,8 +4961,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208679818881
-				tempExt = 256.019666142299
+				temp = 248.063241659233
+				tempExt = 247.975229076152
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4610,6 +5125,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -4638,8 +5193,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.208679818881
-				tempExt = 256.019666142299
+				temp = 248.063241659233
+				tempExt = 247.975229076152
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4804,6 +5359,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -4828,8 +5423,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 256.173883322768
-				tempExt = 255.976851495652
+				temp = 248.070639817745
+				tempExt = 248.045640600913
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -4959,8 +5554,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 256.173883322768
-				tempExt = 255.976851495652
+				temp = 248.066393190513
+				tempExt = 248.014796308122
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5090,8 +5685,8 @@ GAME
 				sym = 24
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 256.173883322768
-				tempExt = 255.976851495652
+				temp = 248.052064322707
+				tempExt = 247.884765506059
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5221,8 +5816,8 @@ GAME
 				sym = 23
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = 256.173883322768
-				tempExt = 255.976851495652
+				temp = 248.052064322707
+				tempExt = 247.884765506059
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5350,8 +5945,8 @@ GAME
 				sym = 26
 				srfN = srfAttach, 1
 				mass = 0.3
-				temp = 256.271590547751
-				tempExt = 255.892275423028
+				temp = 248.075766592668
+				tempExt = 248.49637567589
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5373,7 +5968,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.6469928, 0.6468966, 0.2853278, -0.2855051)
+					currentRotation = (0.660463, 0.6605198, -0.2525865, 0.2523931)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -5459,8 +6054,8 @@ GAME
 				sym = 25
 				srfN = srfAttach, 1
 				mass = 0.3
-				temp = 256.301750054581
-				tempExt = 256.833615097837
+				temp = 248.075146383793
+				tempExt = 248.252699481771
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5482,7 +6077,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.1238695, -0.1241712, -0.6962175, 0.6960741)
+					currentRotation = (-0.3269548, -0.3271999, -0.627027, 0.6267999)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -5569,8 +6164,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 28
 				mass = 0.05
-				temp = 256.292917791992
-				tempExt = 256.211958011613
+				temp = 248.03288274201
+				tempExt = 247.845626341564
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5741,6 +6336,46 @@ GAME
 						rootUId = 4101600483
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -5764,8 +6399,8 @@ GAME
 				attN = top, 27
 				attN = bottom, 29
 				mass = 0.1
-				temp = 256.303557200166
-				tempExt = 256.349884224175
+				temp = 248.044175770918
+				tempExt = 247.883601913662
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5806,8 +6441,8 @@ GAME
 				attN = bottom, 30
 				attN = top, 28
 				mass = 2.5
-				temp = 256.299153951218
-				tempExt = 256.313172042299
+				temp = 248.069573928969
+				tempExt = 247.868317256002
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6150,6 +6785,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -6218,7 +6878,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 99.9994767080654
+					amount = 99.9995722222386
 					maxAmount = 100
 					flowState = True
 					isTweakable = True
@@ -6260,8 +6920,8 @@ GAME
 				attN = top, 29
 				attN = bottom, 31
 				mass = 0.4
-				temp = 256.294792881419
-				tempExt = 256.264211165016
+				temp = 248.073962441216
+				tempExt = 247.875696640183
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6313,8 +6973,8 @@ GAME
 				attN = top, 32
 				attN = bottom, 30
 				mass = 0.2
-				temp = 256.293349899412
-				tempExt = 256.160692182312
+				temp = 248.069793420535
+				tempExt = 247.874332133721
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6477,6 +7137,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -6502,8 +7202,8 @@ GAME
 				attN = top, 31
 				attN = bottom, 33
 				mass = 0.2
-				temp = 256.333474674205
-				tempExt = 256.290077094442
+				temp = 248.068591474915
+				tempExt = 247.914789773618
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6668,6 +7368,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -6691,8 +7431,8 @@ GAME
 				attN = top, 32
 				attN = bottom, 38
 				mass = 3.5
-				temp = 256.340215114946
-				tempExt = 256.51112157145
+				temp = 248.070180590459
+				tempExt = 247.956866881225
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -6831,7 +7571,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 6536168.35786228
+					lastUpdateTime = 9862568.35786228
 					EVENTS
 					{
 						StartResourceConverter
@@ -6908,6 +7648,31 @@ GAME
 							unfocusedRange = 2
 							externalToEVAOnly = True
 						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
 						ToggleStaging
 						{
 							active = True
@@ -7016,8 +7781,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 256.317203440901
-				tempExt = 256.315381954209
+				temp = 248.070259907742
+				tempExt = 247.914964800732
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7176,8 +7941,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 256.317203440901
-				tempExt = 256.315381954209
+				temp = 248.070259907742
+				tempExt = 247.914964800732
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7336,8 +8101,8 @@ GAME
 				sym = 37
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 256.317203440901
-				tempExt = 256.315381954209
+				temp = 248.070259907742
+				tempExt = 247.914964800732
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7496,8 +8261,8 @@ GAME
 				sym = 36
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 256.317203440901
-				tempExt = 256.315381954209
+				temp = 248.070259907742
+				tempExt = 247.914964800732
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7655,8 +8420,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 33
 				mass = 0.2
-				temp = 256.335583439062
-				tempExt = 256.29493509864
+				temp = 248.063274102464
+				tempExt = 247.906182779951
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -7827,6 +8592,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -7851,8 +8656,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 256.277423524955
-				tempExt = 256.160878222702
+				temp = 248.071362217362
+				tempExt = 247.934709818965
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8011,8 +8816,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 256.277423524955
-				tempExt = 256.160878222702
+				temp = 248.069520102044
+				tempExt = 247.870010667004
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8171,8 +8976,8 @@ GAME
 				sym = 42
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 256.277423524955
-				tempExt = 256.160878222702
+				temp = 248.069520102044
+				tempExt = 247.870010667004
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8331,8 +9136,8 @@ GAME
 				sym = 41
 				srfN = srfAttach, 30
 				mass = 0.05
-				temp = 256.277423524955
-				tempExt = 256.160878222702
+				temp = 248.069520102044
+				tempExt = 247.870010667004
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8490,8 +9295,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 44
 				mass = 0.05
-				temp = 256.266888255318
-				tempExt = 256.110668195062
+				temp = 248.071408129473
+				tempExt = 248.035761307357
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8662,6 +9467,46 @@ GAME
 						rootUId = 3120867825
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -8685,8 +9530,8 @@ GAME
 				attN = top, 43
 				attN = bottom, 49
 				mass = 0.15
-				temp = 256.285280635473
-				tempExt = 256.091694163954
+				temp = 248.074286583631
+				tempExt = 247.96308468345
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8739,8 +9584,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 256.291072543286
-				tempExt = 256.299104334083
+				temp = 248.070755734845
+				tempExt = 247.924980553533
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -8899,8 +9744,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 256.260429923574
-				tempExt = 256.058318050515
+				temp = 248.070651344525
+				tempExt = 247.921493767026
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9059,8 +9904,8 @@ GAME
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 256.260429923574
-				tempExt = 256.058318050515
+				temp = 248.070591742943
+				tempExt = 247.919176742324
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9219,8 +10064,8 @@ GAME
 				sym = 47
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 256.260429923574
-				tempExt = 256.058318050515
+				temp = 248.075429633228
+				tempExt = 248.091730251929
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9378,8 +10223,8 @@ GAME
 				attN = top, 44
 				attN = bottom, 50
 				mass = 0.05
-				temp = 256.287135935763
-				tempExt = 256.232693442707
+				temp = 248.070643428925
+				tempExt = 247.948450424882
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9400,7 +10245,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.999476708066
+					amount = 999.999572222239
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -9431,8 +10276,8 @@ GAME
 				attN = top, 49
 				attN = bottom, 59
 				mass = 0.5
-				temp = 256.290468417252
-				tempExt = 256.291817880146
+				temp = 248.073478050595
+				tempExt = 247.915406667016
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9496,8 +10341,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 256.27804118948
-				tempExt = 256.177157770922
+				temp = 248.069969826806
+				tempExt = 247.892044127472
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9656,8 +10501,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 256.280175058816
-				tempExt = 256.193624787896
+				temp = 248.069969826806
+				tempExt = 247.892044127472
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9816,8 +10661,8 @@ GAME
 				sym = 54
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 256.27804118948
-				tempExt = 256.177157770922
+				temp = 248.069969826806
+				tempExt = 247.892044127472
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -9976,8 +10821,8 @@ GAME
 				sym = 53
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 256.27804118948
-				tempExt = 256.177157770922
+				temp = 248.069969826806
+				tempExt = 247.892044127472
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10138,8 +10983,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.27443796552
-				tempExt = 256.17226712487
+				temp = 248.053244907007
+				tempExt = 247.884143106642
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10304,6 +11149,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -10330,8 +11215,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.271575821125
-				tempExt = 256.162888611241
+				temp = 248.05395779503
+				tempExt = 247.888758976106
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10502,6 +11387,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -10528,8 +11453,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.268176810819
-				tempExt = 256.140499405509
+				temp = 248.053700552447
+				tempExt = 247.888176628432
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10700,6 +11625,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -10726,8 +11691,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.02
-				temp = 256.271183641695
-				tempExt = 256.161291720138
+				temp = 248.053192015357
+				tempExt = 247.883659786385
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -10898,6 +11863,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -10921,8 +11926,8 @@ GAME
 				attN = top, 60
 				attN = bottom, 50
 				mass = 0.05
-				temp = 256.258381046107
-				tempExt = 256.128116222778
+				temp = 248.063604534413
+				tempExt = 247.90458367034
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11087,6 +12092,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -11114,8 +12159,8 @@ GAME
 				attN = top, 59
 				attN = bottom, 65
 				mass = 1.5
-				temp = 256.246701590195
-				tempExt = 256.151637812237
+				temp = 248.072235867656
+				tempExt = 248.003751866063
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11156,8 +12201,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 256.252901281917
-				tempExt = 256.337704983665
+				temp = 248.06519497922
+				tempExt = 247.981726694151
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11320,6 +12365,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -11345,8 +12430,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 256.236219600437
-				tempExt = 256.127138669258
+				temp = 248.061526752711
+				tempExt = 247.94267014501
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11511,6 +12596,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -11534,8 +12659,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 256.226918628772
-				tempExt = 256.044245072138
+				temp = 248.048113714176
+				tempExt = 247.932068552072
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11706,6 +12831,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -11729,8 +12894,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 256.230451691458
-				tempExt = 256.071225300651
+				temp = 248.079014007254
+				tempExt = 248.187104018964
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -11895,6 +13060,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -11918,8 +13123,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 60
 				mass = 0.05
-				temp = 256.174860582938
-				tempExt = 255.990335210705
+				temp = 248.057749598348
+				tempExt = 247.892217668004
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12090,6 +13295,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -12113,8 +13358,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 67
 				mass = 0.02
-				temp = 256.211137849667
-				tempExt = 256.00322799354
+				temp = 248.052369867626
+				tempExt = 247.864361979724
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12285,6 +13530,46 @@ GAME
 						rootUId = 164192128
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -12308,8 +13593,8 @@ GAME
 				attN = bottom, 66
 				attN = top, 68
 				mass = 0.04
-				temp = 256.249386766345
-				tempExt = 256.121387415631
+				temp = 248.065737737163
+				tempExt = 247.85413957951
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -12407,6 +13692,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -12439,7 +13749,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99947670806555
+					amount = 4.99957222223868
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -12470,8 +13780,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 67
 				mass = 0.05
-				temp = 256.277578392779
-				tempExt = 256.262811727419
+				temp = 248.072541792219
+				tempExt = 247.786668179129
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12521,8 +13831,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 68
 				mass = 0.3
-				temp = 256.309800776729
-				tempExt = 256.828343719489
+				temp = 248.073389511222
+				tempExt = 247.634740517748
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12632,8 +13942,8 @@ GAME
 				sym = 73
 				srfN = srfAttach, 68
 				mass = 0.005
-				temp = 256.267787472151
-				tempExt = 256.143462767403
+				temp = 248.057431609442
+				tempExt = 247.846303819019
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12746,8 +14056,8 @@ GAME
 				sym = 73
 				srfN = srfAttach, 68
 				mass = 0.005
-				temp = 256.267787472151
-				tempExt = 256.143462767403
+				temp = 248.057431609442
+				tempExt = 247.846303819019
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12860,8 +14170,8 @@ GAME
 				sym = 73
 				srfN = srfAttach, 68
 				mass = 0.005
-				temp = 256.267787472151
-				tempExt = 256.143462767403
+				temp = 248.057431609442
+				tempExt = 247.846303819019
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -12974,8 +14284,8 @@ GAME
 				sym = 72
 				srfN = srfAttach, 68
 				mass = 0.005
-				temp = 256.267787472151
-				tempExt = 256.143462767403
+				temp = 248.057431609442
+				tempExt = 247.846303819019
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13088,8 +14398,8 @@ GAME
 				sym = 77
 				srfN = srfAttach, 68
 				mass = 0.05
-				temp = 256.266369318654
-				tempExt = 256.140504750907
+				temp = 248.069184436575
+				tempExt = 247.852738699259
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13248,8 +14558,8 @@ GAME
 				sym = 77
 				srfN = srfAttach, 68
 				mass = 0.05
-				temp = 256.266369318654
-				tempExt = 256.140504750907
+				temp = 248.06985614188
+				tempExt = 247.879031290776
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13408,8 +14718,8 @@ GAME
 				sym = 77
 				srfN = srfAttach, 68
 				mass = 0.05
-				temp = 256.266369318654
-				tempExt = 256.140504750907
+				temp = 248.069490036556
+				tempExt = 247.864387609815
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13568,8 +14878,8 @@ GAME
 				sym = 76
 				srfN = srfAttach, 68
 				mass = 0.05
-				temp = 256.266369318654
-				tempExt = 256.140504750907
+				temp = 248.069184436575
+				tempExt = 247.852738699259
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13727,8 +15037,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 79
 				mass = 0.02
-				temp = 256.203491730422
-				tempExt = 255.994517911172
+				temp = 248.052295929191
+				tempExt = 247.862386746296
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -13899,6 +15209,46 @@ GAME
 						rootUId = 733197739
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -13922,8 +15272,8 @@ GAME
 				attN = bottom, 78
 				attN = top, 80
 				mass = 0.04
-				temp = 256.24507163194
-				tempExt = 256.097899149929
+				temp = 248.066421933774
+				tempExt = 247.919597634919
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -14021,6 +15371,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -14053,7 +15428,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99947670806555
+					amount = 4.99957222223868
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -14084,8 +15459,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 79
 				mass = 0.05
-				temp = 256.272257061124
-				tempExt = 256.199430574058
+				temp = 248.073489665265
+				tempExt = 248.032409051241
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14135,8 +15510,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 80
 				mass = 0.3
-				temp = 256.302721580785
-				tempExt = 256.621355326341
+				temp = 248.075920687578
+				tempExt = 248.478010966578
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14158,7 +15533,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.5214816, 0.5211725, -0.4778064, 0.4776371)
+					currentRotation = (0.2618507, 0.261646, -0.6570207, 0.6567339)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -14246,8 +15621,8 @@ GAME
 				sym = 85
 				srfN = srfAttach, 80
 				mass = 0.005
-				temp = 256.260428616074
-				tempExt = 256.108963912842
+				temp = 248.063464678328
+				tempExt = 247.93814461519
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14360,8 +15735,8 @@ GAME
 				sym = 85
 				srfN = srfAttach, 80
 				mass = 0.005
-				temp = 256.260428616074
-				tempExt = 256.108963912842
+				temp = 248.063464678328
+				tempExt = 247.93814461519
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14474,8 +15849,8 @@ GAME
 				sym = 85
 				srfN = srfAttach, 80
 				mass = 0.005
-				temp = 256.260428616074
-				tempExt = 256.108963912842
+				temp = 248.063464678328
+				tempExt = 247.93814461519
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14588,8 +15963,8 @@ GAME
 				sym = 84
 				srfN = srfAttach, 80
 				mass = 0.005
-				temp = 256.260428616074
-				tempExt = 256.108963912842
+				temp = 248.063464678328
+				tempExt = 247.93814461519
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14702,8 +16077,8 @@ GAME
 				sym = 89
 				srfN = srfAttach, 80
 				mass = 0.05
-				temp = 256.260218331915
-				tempExt = 256.107173917148
+				temp = 248.070658043295
+				tempExt = 247.940266125438
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -14862,8 +16237,8 @@ GAME
 				sym = 89
 				srfN = srfAttach, 80
 				mass = 0.05
-				temp = 256.260218331915
-				tempExt = 256.107173917148
+				temp = 248.070658043295
+				tempExt = 247.940266125438
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15022,8 +16397,8 @@ GAME
 				sym = 89
 				srfN = srfAttach, 80
 				mass = 0.05
-				temp = 256.260224136553
-				tempExt = 256.10717701443
+				temp = 248.070760754492
+				tempExt = 247.943521330702
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15182,8 +16557,8 @@ GAME
 				sym = 88
 				srfN = srfAttach, 80
 				mass = 0.05
-				temp = 256.260218331915
-				tempExt = 256.107173917148
+				temp = 248.070658043295
+				tempExt = 247.940266125438
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -15340,8 +16715,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 91
 				mass = 0.1
-				temp = 256.24134038492
-				tempExt = 255.922884510335
+				temp = 248.073614141569
+				tempExt = 248.0126313776
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -15565,6 +16940,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Shielded Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -15588,8 +17003,8 @@ GAME
 				attN = bottom, 95
 				attN = top, 90
 				mass = 4
-				temp = 256.253067548435
-				tempExt = 255.978345534265
+				temp = 248.074495552008
+				tempExt = 248.066581163041
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -15956,6 +17371,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -16024,7 +17464,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 149.999476708066
+					amount = 149.999572222239
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -16066,8 +17506,8 @@ GAME
 				sym = 94
 				srfN = srfAttach, 91
 				mass = 0.05
-				temp = 256.237936869803
-				tempExt = 256.012648066102
+				temp = 248.072651262893
+				tempExt = 248.015804186968
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -16213,8 +17653,8 @@ GAME
 				sym = 94
 				srfN = srfAttach, 91
 				mass = 0.05
-				temp = 256.237382147863
-				tempExt = 256.005495953871
+				temp = 248.072651262893
+				tempExt = 248.015804186968
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -16360,8 +17800,8 @@ GAME
 				sym = 93
 				srfN = srfAttach, 91
 				mass = 0.05
-				temp = 256.237382147863
-				tempExt = 256.005495953871
+				temp = 248.072651262893
+				tempExt = 248.015804186968
 				tempExtUnexp = 4
 				expt = 0.1
 				state = 0
@@ -16507,8 +17947,8 @@ GAME
 				attN = top, 91
 				attN = bottom, 96
 				mass = 0.5
-				temp = 256.275338560056
-				tempExt = 256.063324854882
+				temp = 248.075312606731
+				tempExt = 248.181165125409
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -16571,8 +18011,8 @@ GAME
 				attN = top, 95
 				attN = bottom, -1
 				mass = 0.5
-				temp = 256.265277623876
-				tempExt = 256.141024537751
+				temp = 248.080859974275
+				tempExt = 248.317289276508
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -16906,8 +18346,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 95
 				mass = 0.0001
-				temp = 256.249916103455
-				tempExt = 256.056370494192
+				temp = 248.079885519583
+				tempExt = 248.124589185445
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -17138,26 +18578,6 @@ GAME
 							{
 								_val = 0.5
 								_text = 0.5
-							}
-							minThrust
-							{
-								_val = 0.0001
-								_text = 0.0001
-							}
-							decelerationEndAltitude
-							{
-								_val = 500
-								_text = 500
-							}
-							CorrectionBeforeDeceleration
-							{
-								_val = 1000
-								_text = 1000
-							}
-							safityThrustLimit
-							{
-								_val = 0.9
-								_text = 0.9
 							}
 							limitGearsStage
 							{
@@ -17458,7 +18878,7 @@ GAME
 							markUT = 35497.11096303
 							deltaVExpended = NaN
 							dragLosses = 170.963437332088
-							gravityLosses = 740.298685180498
+							gravityLosses = 740.298377325741
 							steeringLosses = NaN
 							markLAN = 76.8772743225098
 							markLatitude = -0.0972078283826513
@@ -17480,6 +18900,31 @@ GAME
 				{
 					name = MechJebAR202
 					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
 					stagingEnabled = True
 					EVENTS
 					{
@@ -17534,7 +18979,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99947670806555
+					amount = 4.99957222223868
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -17564,8 +19009,8 @@ GAME
 				sym = 99
 				srfN = srfAttach, 95
 				mass = 0.025
-				temp = 256.152977797574
-				tempExt = 255.685432611281
+				temp = 248.078526647908
+				tempExt = 248.22369348151
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -17587,7 +19032,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.09384259, 0.7008392, -0.7008794, -0.09373461)
+					currentRotation = (-0.2990442, 0.6406977, -0.640789, 0.299113)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -17673,8 +19118,8 @@ GAME
 				sym = 98
 				srfN = srfAttach, 95
 				mass = 0.025
-				temp = 256.182371814235
-				tempExt = 255.824327226739
+				temp = 248.08378426608
+				tempExt = 248.305232635727
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -17696,7 +19141,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.09384239, -0.700842, 0.700886, -0.09366493)
+					currentRotation = (-0.2990399, -0.6406659, 0.6407991, 0.2991637)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -17783,8 +19228,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 95
 				mass = 0.05
-				temp = 256.260374733587
-				tempExt = 256.081760951036
+				temp = 248.073320431123
+				tempExt = 248.035623543641
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -17942,8 +19387,8 @@ GAME
 				sym = 102
 				srfN = srfAttach, 95
 				mass = 0.05
-				temp = 256.255357432909
-				tempExt = 256.042467474274
+				temp = 248.073320431123
+				tempExt = 248.035623543641
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -18101,8 +19546,8 @@ GAME
 				sym = 101
 				srfN = srfAttach, 95
 				mass = 0.05
-				temp = 256.255357432909
-				tempExt = 256.042467474274
+				temp = 248.073320431123
+				tempExt = 248.035623543641
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -18260,8 +19705,8 @@ GAME
 				sym = 105
 				srfN = srfAttach, 91
 				mass = 0.1
-				temp = 256.226754406174
-				tempExt = 255.900253062615
+				temp = 248.06815921884
+				tempExt = 247.897278466819
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -18484,8 +19929,8 @@ GAME
 				sym = 105
 				srfN = srfAttach, 91
 				mass = 0.1
-				temp = 256.227106330282
-				tempExt = 255.907253706746
+				temp = 248.06815921884
+				tempExt = 247.897278466819
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -18708,8 +20153,8 @@ GAME
 				sym = 104
 				srfN = srfAttach, 91
 				mass = 0.1
-				temp = 256.226754406174
-				tempExt = 255.900253062615
+				temp = 248.06815921884
+				tempExt = 247.897278466819
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -18932,8 +20377,8 @@ GAME
 				sym = 108
 				srfN = srfAttach, 91
 				mass = 0.005
-				temp = 256.243865895832
-				tempExt = 256.117281494823
+				temp = 248.067240953538
+				tempExt = 247.972810060587
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -19045,8 +20490,8 @@ GAME
 				sym = 108
 				srfN = srfAttach, 91
 				mass = 0.005
-				temp = 256.234703969631
-				tempExt = 255.997292525785
+				temp = 248.067240953538
+				tempExt = 247.972810060587
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -19158,8 +20603,8 @@ GAME
 				sym = 107
 				srfN = srfAttach, 91
 				mass = 0.005
-				temp = 256.234703969631
-				tempExt = 255.997292525785
+				temp = 248.067240953538
+				tempExt = 247.972810060587
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -19271,8 +20716,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 110
 				mass = 0.05
-				temp = 256.31097971179
-				tempExt = 256.285922435209
+				temp = 248.076653658178
+				tempExt = 248.092374011564
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19443,6 +20888,46 @@ GAME
 						rootUId = 2301168380
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -19466,8 +20951,8 @@ GAME
 				attN = top, 109
 				attN = bottom, 121
 				mass = 0.57
-				temp = 256.316005721979
-				tempExt = 256.511199482232
+				temp = 248.077455133532
+				tempExt = 248.321993046706
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19531,8 +21016,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 110
 				mass = 0.015
-				temp = 256.313506993358
-				tempExt = 256.311946237869
+				temp = 248.077518952103
+				tempExt = 248.114513751087
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19662,8 +21147,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 110
 				mass = 0.015
-				temp = 256.313506993358
-				tempExt = 256.311946237869
+				temp = 248.077366568628
+				tempExt = 248.113144699864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19793,8 +21278,8 @@ GAME
 				sym = 114
 				srfN = srfAttach, 110
 				mass = 0.015
-				temp = 256.313506993358
-				tempExt = 256.311946237869
+				temp = 248.077414215087
+				tempExt = 248.113568316755
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -19924,8 +21409,8 @@ GAME
 				sym = 113
 				srfN = srfAttach, 110
 				mass = 0.015
-				temp = 256.313506993358
-				tempExt = 256.311946237869
+				temp = 248.077366568628
+				tempExt = 248.113144699864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20057,8 +21542,8 @@ GAME
 				sym = 120
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20219,8 +21704,8 @@ GAME
 				sym = 120
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20381,8 +21866,8 @@ GAME
 				sym = 120
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20543,8 +22028,8 @@ GAME
 				sym = 120
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20705,8 +22190,8 @@ GAME
 				sym = 120
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -20867,8 +22352,8 @@ GAME
 				sym = 119
 				srfN = srfAttach, 110
 				mass = 0.08
-				temp = 256.285877758974
-				tempExt = 256.20155406454
+				temp = 248.072970674823
+				tempExt = 248.023394673637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21026,8 +22511,8 @@ GAME
 				attN = top, 110
 				attN = bottom, 122
 				mass = 1.79
-				temp = 256.313716717208
-				tempExt = 256.580514148045
+				temp = 248.076745145936
+				tempExt = 248.364775756214
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21090,8 +22575,8 @@ GAME
 				attN = top, 121
 				attN = bottom, 123
 				mass = 1.79
-				temp = 256.303667171982
-				tempExt = 256.472568347424
+				temp = 248.075466943457
+				tempExt = 248.292642798216
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21154,8 +22639,8 @@ GAME
 				attN = top, 122
 				attN = bottom, 124
 				mass = 9
-				temp = 256.300603699656
-				tempExt = 256.510973726614
+				temp = 248.075172109635
+				tempExt = 248.279324114439
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21218,8 +22703,8 @@ GAME
 				attN = top, 125
 				attN = bottom, 123
 				mass = 1.79
-				temp = 256.302152051357
-				tempExt = 256.461181442697
+				temp = 248.075201474038
+				tempExt = 248.238931692753
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21282,8 +22767,8 @@ GAME
 				attN = top, 126
 				attN = bottom, 124
 				mass = 1.79
-				temp = 256.312213452364
-				tempExt = 256.572737299609
+				temp = 248.076294313051
+				tempExt = 248.307744765614
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21346,8 +22831,8 @@ GAME
 				attN = top, 127
 				attN = bottom, 125
 				mass = 0.57
-				temp = 256.31273531062
-				tempExt = 256.498991494515
+				temp = 248.076360983117
+				tempExt = 248.256480596502
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21410,8 +22895,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 126
 				mass = 0.05
-				temp = 256.309968127906
-				tempExt = 256.293161870518
+				temp = 248.074543465024
+				tempExt = 248.073879162775
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21576,6 +23061,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -21600,8 +23125,8 @@ GAME
 				sym = 131
 				srfN = srfAttach, 126
 				mass = 0.015
-				temp = 256.309445503784
-				tempExt = 256.303447540923
+				temp = 248.073502600027
+				tempExt = 248.076345097511
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21731,8 +23256,8 @@ GAME
 				sym = 131
 				srfN = srfAttach, 126
 				mass = 0.015
-				temp = 256.309445503784
-				tempExt = 256.303447540923
+				temp = 248.073455093608
+				tempExt = 248.075914874201
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21862,8 +23387,8 @@ GAME
 				sym = 131
 				srfN = srfAttach, 126
 				mass = 0.015
-				temp = 256.309445503784
-				tempExt = 256.303447540923
+				temp = 248.073608310875
+				tempExt = 248.077283620171
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -21993,8 +23518,8 @@ GAME
 				sym = 130
 				srfN = srfAttach, 126
 				mass = 0.015
-				temp = 256.309445503784
-				tempExt = 256.303447540923
+				temp = 248.073455093608
+				tempExt = 248.075914874201
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22126,8 +23651,8 @@ GAME
 				sym = 137
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22288,8 +23813,8 @@ GAME
 				sym = 137
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22450,8 +23975,8 @@ GAME
 				sym = 137
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22612,8 +24137,8 @@ GAME
 				sym = 137
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22774,8 +24299,8 @@ GAME
 				sym = 137
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -22936,8 +24461,8 @@ GAME
 				sym = 136
 				srfN = srfAttach, 126
 				mass = 0.08
-				temp = 256.283720382883
-				tempExt = 256.194421415498
+				temp = 248.072316014256
+				tempExt = 247.990603034102
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23095,8 +24620,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 139
 				mass = 0.02
-				temp = 256.192392216093
-				tempExt = 256.026702592
+				temp = 248.052323219505
+				tempExt = 247.863564548186
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23267,6 +24792,46 @@ GAME
 						rootUId = 466460193
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Jr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -23290,8 +24855,8 @@ GAME
 				attN = bottom, 138
 				attN = top, 140
 				mass = 0.04
-				temp = 256.235266459989
-				tempExt = 256.000633070209
+				temp = 248.066455117732
+				tempExt = 247.929780826407
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -23389,6 +24954,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -23421,7 +25011,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99947670806555
+					amount = 4.99957222223868
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -23452,8 +25042,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 139
 				mass = 0.05
-				temp = 256.254577250364
-				tempExt = 255.954549136423
+				temp = 248.073488170247
+				tempExt = 248.063839601305
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23503,8 +25093,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 140
 				mass = 0.3
-				temp = 256.277432352487
-				tempExt = 255.858429671541
+				temp = 248.076116521479
+				tempExt = 248.556711926183
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23614,8 +25204,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 140
 				mass = 0.005
-				temp = 256.235525548753
-				tempExt = 255.98925949683
+				temp = 248.063893970181
+				tempExt = 247.950682235231
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23728,8 +25318,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 140
 				mass = 0.005
-				temp = 256.235525548753
-				tempExt = 255.98925949683
+				temp = 248.063893970181
+				tempExt = 247.950682235231
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23842,8 +25432,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 140
 				mass = 0.005
-				temp = 256.235525548753
-				tempExt = 255.98925949683
+				temp = 248.063893970181
+				tempExt = 247.950682235231
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -23956,8 +25546,8 @@ GAME
 				sym = 144
 				srfN = srfAttach, 140
 				mass = 0.005
-				temp = 256.235525548753
-				tempExt = 255.98925949683
+				temp = 248.063893970181
+				tempExt = 247.950682235231
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24070,8 +25660,8 @@ GAME
 				sym = 149
 				srfN = srfAttach, 140
 				mass = 0.05
-				temp = 256.2393562832
-				tempExt = 255.993110719007
+				temp = 248.070686097853
+				tempExt = 247.952386278698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24230,8 +25820,8 @@ GAME
 				sym = 149
 				srfN = srfAttach, 140
 				mass = 0.05
-				temp = 256.2393562832
-				tempExt = 255.993110719007
+				temp = 248.070686097853
+				tempExt = 247.952386278698
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24390,8 +25980,8 @@ GAME
 				sym = 149
 				srfN = srfAttach, 140
 				mass = 0.05
-				temp = 256.2393562832
-				tempExt = 255.993110719007
+				temp = 248.072382663516
+				tempExt = 248.009773959228
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24550,8 +26140,8 @@ GAME
 				sym = 148
 				srfN = srfAttach, 140
 				mass = 0.05
-				temp = 256.2393562832
-				tempExt = 255.993110719007
+				temp = 248.073806240969
+				tempExt = 248.047501085314
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -24709,8 +26299,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 151
 				mass = 0.2
-				temp = 256.227286678197
-				tempExt = 256.118722869325
+				temp = 248.063128393519
+				tempExt = 247.86330448811
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24881,6 +26471,46 @@ GAME
 						rootUId = 2833213873
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -24904,8 +26534,8 @@ GAME
 				attN = top, 156
 				attN = bottom, 150
 				mass = 0.4
-				temp = 256.2824450433
-				tempExt = 256.116106890809
+				temp = 248.073811006638
+				tempExt = 247.887912351242
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -24958,8 +26588,8 @@ GAME
 				sym = 155
 				srfN = srfAttach, 151
 				mass = 0.05
-				temp = 256.263531959141
-				tempExt = 256.074672352351
+				temp = 248.069661783377
+				tempExt = 247.877006979275
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25118,8 +26748,8 @@ GAME
 				sym = 155
 				srfN = srfAttach, 151
 				mass = 0.05
-				temp = 256.263531959141
-				tempExt = 256.074672352351
+				temp = 248.069661783377
+				tempExt = 247.877006979275
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25278,8 +26908,8 @@ GAME
 				sym = 155
 				srfN = srfAttach, 151
 				mass = 0.05
-				temp = 256.263531959141
-				tempExt = 256.074672352351
+				temp = 248.069661783377
+				tempExt = 247.877006979275
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25438,8 +27068,8 @@ GAME
 				sym = 154
 				srfN = srfAttach, 151
 				mass = 0.05
-				temp = 256.263531959141
-				tempExt = 256.074672352351
+				temp = 248.069661783377
+				tempExt = 247.877006979275
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25597,8 +27227,8 @@ GAME
 				attN = top, 157
 				attN = bottom, 151
 				mass = 0.2
-				temp = 256.254647656023
-				tempExt = 256.062838908175
+				temp = 248.069261449599
+				tempExt = 247.872513143397
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25619,7 +27249,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.99947670807
+					amount = 3999.99957222224
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -25650,8 +27280,8 @@ GAME
 				attN = top, 162
 				attN = bottom, 156
 				mass = 0.2
-				temp = 256.227024341586
-				tempExt = 256.013171718911
+				temp = 248.066081082721
+				tempExt = 247.861284235637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25672,7 +27302,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.99947670807
+					amount = 3999.99957222224
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -25704,8 +27334,8 @@ GAME
 				sym = 161
 				srfN = srfAttach, 157
 				mass = 0.015
-				temp = 256.193591638557
-				tempExt = 256.013221890448
+				temp = 248.050248330221
+				tempExt = 247.854765327468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25835,8 +27465,8 @@ GAME
 				sym = 161
 				srfN = srfAttach, 157
 				mass = 0.015
-				temp = 256.190159479319
-				tempExt = 255.982555612945
+				temp = 248.050248330221
+				tempExt = 247.854765327468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -25966,8 +27596,8 @@ GAME
 				sym = 161
 				srfN = srfAttach, 157
 				mass = 0.015
-				temp = 256.204257181004
-				tempExt = 256.061339262774
+				temp = 248.050248330221
+				tempExt = 247.854765327468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26097,8 +27727,8 @@ GAME
 				sym = 160
 				srfN = srfAttach, 157
 				mass = 0.015
-				temp = 256.241494796308
-				tempExt = 256.233359931306
+				temp = 248.050248330221
+				tempExt = 247.854765327468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26227,8 +27857,8 @@ GAME
 				attN = top, 171
 				attN = bottom, 157
 				mass = 0.2
-				temp = 256.203898604336
-				tempExt = 255.965686104088
+				temp = 248.063915722112
+				tempExt = 247.857601729378
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26249,7 +27879,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.99947670807
+					amount = 3999.99957222224
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -26281,8 +27911,8 @@ GAME
 				sym = 166
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.169345863072
-				tempExt = 255.949386061075
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26412,8 +28042,8 @@ GAME
 				sym = 166
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.164136445259
-				tempExt = 255.946349215247
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26543,8 +28173,8 @@ GAME
 				sym = 166
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.164136445259
-				tempExt = 255.946349215247
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26674,8 +28304,8 @@ GAME
 				sym = 165
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.164136445259
-				tempExt = 255.946349215247
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26805,8 +28435,8 @@ GAME
 				sym = 170
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.173879077494
-				tempExt = 255.998080338287
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -26936,8 +28566,8 @@ GAME
 				sym = 170
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.17219866111
-				tempExt = 256.019246399599
+				temp = 248.050131613814
+				tempExt = 247.86128457211
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27067,8 +28697,8 @@ GAME
 				sym = 170
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.164136445259
-				tempExt = 255.946349215247
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27198,8 +28828,8 @@ GAME
 				sym = 169
 				srfN = srfAttach, 162
 				mass = 0.015
-				temp = 256.215320722648
-				tempExt = 256.17805012129
+				temp = 248.04922185316
+				tempExt = 247.852951787674
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27328,8 +28958,8 @@ GAME
 				attN = top, 176
 				attN = bottom, 162
 				mass = 0.2
-				temp = 256.189267219114
-				tempExt = 255.956239068119
+				temp = 248.064406043108
+				tempExt = 247.858959852803
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27350,7 +28980,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.99947670807
+					amount = 3999.99957222224
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -27382,8 +29012,8 @@ GAME
 				sym = 175
 				srfN = srfAttach, 171
 				mass = 0.015
-				temp = 256.161453434569
-				tempExt = 255.998452442318
+				temp = 248.04984511374
+				tempExt = 247.853700076582
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27513,8 +29143,8 @@ GAME
 				sym = 175
 				srfN = srfAttach, 171
 				mass = 0.015
-				temp = 256.154570144329
-				tempExt = 255.937085884448
+				temp = 248.04984511374
+				tempExt = 247.853700076582
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27644,8 +29274,8 @@ GAME
 				sym = 175
 				srfN = srfAttach, 171
 				mass = 0.015
-				temp = 256.154570144329
-				tempExt = 255.937085884448
+				temp = 248.04984511374
+				tempExt = 247.853700076582
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27775,8 +29405,8 @@ GAME
 				sym = 174
 				srfN = srfAttach, 171
 				mass = 0.015
-				temp = 256.154570144329
-				tempExt = 255.937085884448
+				temp = 248.04984511374
+				tempExt = 247.853700076582
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -27905,8 +29535,8 @@ GAME
 				attN = bottom, 171
 				attN = top, 181
 				mass = 0.5
-				temp = 256.176123579224
-				tempExt = 255.986834723073
+				temp = 248.064109444528
+				tempExt = 247.862009101426
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -28061,6 +29691,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -28093,7 +29748,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 29.9994767080655
+					amount = 29.9995722222387
 					maxAmount = 30
 					flowState = True
 					isTweakable = True
@@ -28125,8 +29780,8 @@ GAME
 				sym = 180
 				srfN = srfAttach, 176
 				mass = 0.015
-				temp = 256.1475387839
-				tempExt = 255.957361850071
+				temp = 248.049989539057
+				tempExt = 247.855632647086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28256,8 +29911,8 @@ GAME
 				sym = 180
 				srfN = srfAttach, 176
 				mass = 0.015
-				temp = 256.146637498796
-				tempExt = 255.950192201157
+				temp = 248.049989539057
+				tempExt = 247.855632647086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28387,8 +30042,8 @@ GAME
 				sym = 180
 				srfN = srfAttach, 176
 				mass = 0.015
-				temp = 256.146637498796
-				tempExt = 255.950192201157
+				temp = 248.049989539057
+				tempExt = 247.855632647086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28518,8 +30173,8 @@ GAME
 				sym = 179
 				srfN = srfAttach, 176
 				mass = 0.015
-				temp = 256.146637498796
-				tempExt = 255.950192201157
+				temp = 248.049989539057
+				tempExt = 247.855632647086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28648,8 +30303,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 176
 				mass = 0.2
-				temp = 256.165321898232
-				tempExt = 255.941458539441
+				temp = 248.058246304061
+				tempExt = 247.870370789637
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -28820,6 +30475,46 @@ GAME
 						rootUId = 2585324684
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -28844,8 +30539,8 @@ GAME
 				sym = 185
 				srfN = srfAttach, 176
 				mass = 0.05
-				temp = 256.200638453747
-				tempExt = 256.029907790606
+				temp = 248.068715941325
+				tempExt = 247.864248517665
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29004,8 +30699,8 @@ GAME
 				sym = 185
 				srfN = srfAttach, 176
 				mass = 0.05
-				temp = 256.199015749013
-				tempExt = 255.975804051263
+				temp = 248.068715941325
+				tempExt = 247.864248517665
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29164,8 +30859,8 @@ GAME
 				sym = 185
 				srfN = srfAttach, 176
 				mass = 0.05
-				temp = 256.199015749013
-				tempExt = 255.975804051263
+				temp = 248.068715941325
+				tempExt = 247.864248517665
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29324,8 +31019,8 @@ GAME
 				sym = 184
 				srfN = srfAttach, 176
 				mass = 0.05
-				temp = 256.19915605679
-				tempExt = 255.977697289329
+				temp = 248.068715941325
+				tempExt = 247.864248517665
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29483,8 +31178,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 187
 				mass = 0.2
-				temp = 255.941871421172
-				tempExt = 255.742379424843
+				temp = 248.029198915451
+				tempExt = 247.82559236381
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29655,6 +31350,46 @@ GAME
 						rootUId = 2550077159
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -29677,8 +31412,8 @@ GAME
 				srfN = srfAttach, 188
 				attN = top, 186
 				mass = 0.04
-				temp = 256.084542555127
-				tempExt = 255.915270730173
+				temp = 248.020511790705
+				tempExt = 247.770255025903
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29721,8 +31456,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.25
-				temp = 256.138284218129
-				tempExt = 256.063711811869
+				temp = 247.962532058496
+				tempExt = 247.624763603474
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29863,8 +31598,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 188
 				mass = 0.015
-				temp = 256.119799336829
-				tempExt = 255.981875597863
+				temp = 248.031805370652
+				tempExt = 247.750224190223
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -29991,8 +31726,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 188
 				mass = 0.15
-				temp = 256.25914928954
-				tempExt = 256.043668375371
+				temp = 248.071458220299
+				tempExt = 247.787435076987
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30042,8 +31777,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 188
 				mass = 0.075
-				temp = 256.257818369232
-				tempExt = 256.043750817374
+				temp = 248.071108795402
+				tempExt = 247.776687073266
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30095,8 +31830,8 @@ GAME
 				attN = top, 188
 				attN = bottom, 193
 				mass = 0.375
-				temp = 256.109090153064
-				tempExt = 255.752196365155
+				temp = 248.059420392391
+				tempExt = 247.772597359648
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30139,8 +31874,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.25
-				temp = 255.776229857541
-				tempExt = 255.54956231525
+				temp = 247.994710847236
+				tempExt = 247.74650014361
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30281,8 +32016,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 193
 				mass = 0.015
-				temp = 255.84189329376
-				tempExt = 255.597305616309
+				temp = 248.037453373877
+				tempExt = 247.796059532299
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30409,8 +32144,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 193
 				mass = 0.075
-				temp = 256.194689273592
-				tempExt = 255.799720834319
+				temp = 248.071876274091
+				tempExt = 247.821362412196
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30460,8 +32195,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 192
 				mass = 0.05
-				temp = 256.166279308369
-				tempExt = 255.932596179312
+				temp = 248.070246043345
+				tempExt = 247.918416035332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30617,8 +32352,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 192
 				mass = 0.05
-				temp = 256.166279308369
-				tempExt = 255.932596179312
+				temp = 248.071374128779
+				tempExt = 247.956669351761
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30776,8 +32511,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.1875
-				temp = 256.2206862621
-				tempExt = 255.975893751112
+				temp = 248.069154944676
+				tempExt = 247.859476663984
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30818,8 +32553,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.375
-				temp = 256.199353231253
-				tempExt = 255.923999508243
+				temp = 248.069215867838
+				tempExt = 247.868643973881
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30860,8 +32595,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.1875
-				temp = 256.226277914404
-				tempExt = 255.980427510332
+				temp = 248.072561020893
+				tempExt = 247.987647695713
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30902,8 +32637,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.075
-				temp = 256.082637988006
-				tempExt = 255.876450587975
+				temp = 248.054281002536
+				tempExt = 247.857869422187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30942,8 +32677,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 201
 				mass = 0.005
-				temp = 256.051308837334
-				tempExt = 255.84754348274
+				temp = 248.033354861502
+				tempExt = 247.846024525322
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -30964,7 +32699,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 99.9994767080654
+					amount = 99.9995722222386
 					maxAmount = 100
 					flowState = True
 					isTweakable = True
@@ -30995,8 +32730,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.075
-				temp = 256.082637988006
-				tempExt = 255.876450587975
+				temp = 248.054281002536
+				tempExt = 247.857869422187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31035,8 +32770,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 203
 				mass = 0.005
-				temp = 256.051308837334
-				tempExt = 255.84754348274
+				temp = 248.033354861502
+				tempExt = 247.846024525322
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31057,7 +32792,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 99.9994767080654
+					amount = 99.9995722222386
 					maxAmount = 100
 					flowState = True
 					isTweakable = True
@@ -31088,8 +32823,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.075
-				temp = 256.158731188604
-				tempExt = 255.989982247211
+				temp = 248.060776813229
+				tempExt = 247.909810307906
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31128,8 +32863,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 205
 				mass = 0.05
-				temp = 256.193569916625
-				tempExt = 255.967611711162
+				temp = 248.068674007754
+				tempExt = 247.878450008368
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31238,8 +32973,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.075
-				temp = 256.11848278684
-				tempExt = 255.896721364474
+				temp = 248.056374918313
+				tempExt = 247.858987902506
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31278,8 +33013,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 207
 				mass = 0.05
-				temp = 256.187298299345
-				tempExt = 255.931248659517
+				temp = 248.068140374236
+				tempExt = 247.863626937107
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31387,8 +33122,8 @@ GAME
 				attN = top, -1
 				attN = bottom, -1
 				mass = 0.075
-				temp = 256.134867690863
-				tempExt = 255.909020622801
+				temp = 248.056434846451
+				tempExt = 247.861118974259
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31427,8 +33162,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 209
 				mass = 0.05
-				temp = 256.188918710683
-				tempExt = 255.881698052059
+				temp = 248.067927720815
+				tempExt = 247.85878065763
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31535,8 +33270,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 199
 				mass = 0.05
-				temp = 256.214911555413
-				tempExt = 255.970305572983
+				temp = 248.069106287775
+				tempExt = 247.866839511336
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31692,8 +33427,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 199
 				mass = 0.05
-				temp = 256.215292728857
-				tempExt = 255.970479943002
+				temp = 248.070195664529
+				tempExt = 247.906484562162
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31851,8 +33586,8 @@ GAME
 				attN = top, 214
 				attN = bottom, -1
 				mass = 0.1875
-				temp = 256.201793828798
-				tempExt = 255.961381084823
+				temp = 248.069201039206
+				tempExt = 247.876607790249
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -31893,8 +33628,8 @@ GAME
 				attN = bottom, 213
 				attN = top, -1
 				mass = 0.1
-				temp = 256.183564785245
-				tempExt = 255.951938586308
+				temp = 248.065026169619
+				tempExt = 247.891499290651
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -32049,6 +33784,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -32081,7 +33841,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.99947670806553
+					amount = 9.99957222223867
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -32110,8 +33870,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 214
 				mass = 0.0001
-				temp = 256.158671817859
-				tempExt = 255.950245660717
+				temp = 248.054910698343
+				tempExt = 247.930552200148
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -32293,6 +34053,31 @@ GAME
 				}
 				MODULE
 				{
+					name = ModuleCrewAssignment
+					isEnabled = True
+					slotAssignments = 
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleTripLogger
 					isEnabled = True
 					stagingEnabled = True
@@ -32325,7 +34110,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99947670806555
+					amount = 4.99957222223868
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -32354,8 +34139,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 214
 				mass = 0.05
-				temp = 256.202156494253
-				tempExt = 255.961202637284
+				temp = 248.069111056278
+				tempExt = 247.879434695556
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -32511,8 +34296,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 199
 				mass = 0.05
-				temp = 256.214597362967
-				tempExt = 255.970161843812
+				temp = 248.069106287775
+				tempExt = 247.866839511336
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -32668,8 +34453,8 @@ GAME
 				attm = 0
 				srfN = , -1
 				mass = 0.09375
-				temp = 256.097771625647
-				tempExt = 255.954102487686
+				temp = 248.056667258654
+				tempExt = 247.921831347529
 				tempExtUnexp = 130.033341011299
 				expt = 0
 				state = 0
@@ -33172,8 +34957,8 @@ GAME
 				attm = 0
 				srfN = , -1
 				mass = 0.09375
-				temp = 256.006378265584
-				tempExt = 255.788569409054
+				temp = 248.048263310383
+				tempExt = 247.85017735243
 				tempExtUnexp = 194.961805083996
 				expt = 0
 				state = 0
@@ -33678,8 +35463,8 @@ GAME
 				srfN = srfAttach, -1
 				attN = bottom, 221
 				mass = 0.1
-				temp = 256.127869406861
-				tempExt = 255.844582814513
+				temp = 248.077934582291
+				tempExt = 248.074047460051
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33903,6 +35688,46 @@ GAME
 						}
 					}
 				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Shielded Docking Port
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
 			}
 			PART
 			{
@@ -33926,8 +35751,8 @@ GAME
 				attN = top, 220
 				attN = bottom, 222
 				mass = 0.1
-				temp = 256.091575886751
-				tempExt = 255.911600949581
+				temp = 248.093889466979
+				tempExt = 248.163492502458
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -33968,8 +35793,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 221
 				mass = 0.2
-				temp = 256.125507212066
-				tempExt = 256.059400643912
+				temp = 248.097456387395
+				tempExt = 248.253918711817
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -34132,6 +35957,46 @@ GAME
 						{
 							actionGroup = None
 						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleDockingNodeNamed
+					isEnabled = True
+					portName = Clamp-O-Tron Docking Port Sr.
+					initialized = True
+					controlTransformName = 
+					stagingEnabled = True
+					EVENTS
+					{
+						renameDockingPort
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Rename Port
+							guiName = Rename Port
+							category = Rename Port
+							guiActiveUnfocused = True
+							unfocusedRange = 2000
+							externalToEVAOnly = False
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 			}
@@ -45115,13 +46980,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 100765.701021914
+				SMA = 100765.755015805
 				ECC = 1
 				INC = NaN
-				LPE = 117.58879835317
-				LAN = 36.6166828898189
+				LPE = 172.178059805664
+				LAN = 99.8666147563258
 				MNA = 3.14159265358979
-				EPH = 13767197.5380443
+				EPH = 13767212.918044
 				REF = 2
 			}
 			PART
@@ -79862,13 +81727,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 100783.019752922
+				SMA = 100783.137478019
 				ECC = 1
 				INC = NaN
-				LPE = 117.113538916892
-				LAN = 36.6166828898189
+				LPE = 172.305577616561
+				LAN = 99.8666147563258
 				MNA = 3.14159265358979
-				EPH = 13767197.5380443
+				EPH = 13767212.918044
 				REF = 2
 			}
 			PART
@@ -92681,13 +94546,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 100761.763886046
 				ECC = 1
 				INC = NaN
-				LPE = 117.582400524645
-				LAN = 36.6166828898189
-				MNA = -Infinity
-				EPH = 13767197.5380443
+				LPE = 172.177867593869
+				LAN = 99.8666147563258
+				MNA = 3.14159265358979
+				EPH = 13767212.918044
 				REF = 2
 			}
 			PART
@@ -96579,13 +98444,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 117.240895151885
-				LAN = 36.6166828898189
+				LPE = 172.521843570114
+				LAN = 99.8666147563258
 				MNA = -Infinity
-				EPH = 13767197.5380443
+				EPH = 13767212.918044
 				REF = 2
 			}
 			PART
@@ -110632,59 +112497,59 @@ GAME
 	}
 	LoaderInfo
 	{
-		MechJeb2 v2.5.1.0 / v / v2.5.7.0 = True
+		ModuleManager.2.6.21 v2.6.21.0 = True
+		BetterCrewAssignment v0.0.0.0 = True
+		Atmosphere v1.5.5933.38810 / v1.0.0.0 = True
+		CelestialShadows v1.5.5933.38810 / v1.0.0.0 = True
+		CityLights v1.5.5933.38811 / v1.0.0.0 = True
+		EVEManager v1.5.5933.38810 / v1.0.0.0 = True
+		PartFX v1.5.5933.38810 / v1.0.0.0 = True
+		PQSManager v1.5.5933.38810 / v1.0.0.0 = True
+		ShaderLoader v1.5.5933.38810 / v1.0.0.0 = True
+		Terrain v1.5.5933.38810 / v1.0.0.0 = True
+		TextureConfig v1.5.5933.38810 / v1.0.0.0 = True
+		Utils v1.5.5933.38809 / v1.0.0.0 = True
+		_BuildManager v1.5.5933.38811 / v1.0.0.0 = True
+		KerbalEngineer v1.1.0.2 = True
+		KerbalEngineer.Unity v1.0.0.0 = True
+		MiniAVC v1.0.3.2 = True
+		MakeItSmall v1.1.0.0 = True
+		MechJeb2 v2.5.1.0 / vDev #572 Sarbian / v2.5.6.0 = True
+		MissionControllerEC v1.3.0.0 = True
+		DockingPortAlignmentIndicator v1.0.0.0 = True
+		DPAI_RPM v1.0.0.0 = True
+		MiniAVC v1.0.3.0 = True
+		ModuleDockingNodeNamed v1.0.0.0 = True
+		RCSBuildAid v0.7.7.34644 = True
+		SCANsat v1.5.0.2 / vv15.2 = True
+		scatterer v1.0.5939.25400 = True
+		KerbalAlarmClock v3.6.0.0 = True
+		MiniAVC v1.0.2.3 = True
+		[x] Science! v4.15.5937.37905 = True
+		AutoSave = True
+		BetterCrewAssignment = True
+		BoulderCo = True
+		EnvironmentalVisualEnhancements = True
+		KerbalEngineer = True
+		MakeItSmall = True
 		MechJeb2 = True
+		MissionControllerEC = True
+		NavyFish = True
+		RCSBuildAid = True
+		SCANsat = True
+		scatterer = True
+		StationScience = True
+		TriggerTech = True
+		[x] Science! = True
+		ModuleManager.2.6.21.dll = True
+		ModuleManager.ConfigCache = True
+		ModuleManager.ConfigSHA = True
+		ModuleManager.Physics = True
+		ModuleManager.TechTree = True
+		KerbalEngineer v1.1.0.1 = False
 		MechJeb2 v2.5.1.0 / vDev #576 Sarbian / v2.5.6.0 = False
 		MechJeb2 v2.5.1.0 / vDev #573 Sarbian / v2.5.6.0 = False
-		ModuleManager.2.6.21 v2.6.21.0 = False
-		BetterCrewAssignment v0.0.0.0 = False
-		Atmosphere v1.5.5933.38810 / v1.0.0.0 = False
-		CelestialShadows v1.5.5933.38810 / v1.0.0.0 = False
-		CityLights v1.5.5933.38811 / v1.0.0.0 = False
-		EVEManager v1.5.5933.38810 / v1.0.0.0 = False
-		PartFX v1.5.5933.38810 / v1.0.0.0 = False
-		PQSManager v1.5.5933.38810 / v1.0.0.0 = False
-		ShaderLoader v1.5.5933.38810 / v1.0.0.0 = False
-		Terrain v1.5.5933.38810 / v1.0.0.0 = False
-		TextureConfig v1.5.5933.38810 / v1.0.0.0 = False
-		Utils v1.5.5933.38809 / v1.0.0.0 = False
-		_BuildManager v1.5.5933.38811 / v1.0.0.0 = False
-		KerbalEngineer v1.1.0.1 = False
-		KerbalEngineer.Unity v1.0.0.0 = False
-		MiniAVC v1.0.3.0 = False
-		MakeItSmall v1.1.0.0 = False
-		MechJeb2 v2.5.1.0 / vDev #572 Sarbian / v2.5.6.0 = False
-		MissionControllerEC v1.3.0.0 = False
-		DockingPortAlignmentIndicator v1.0.0.0 = False
-		DPAI_RPM v1.0.0.0 = False
-		ModuleDockingNodeNamed v1.0.0.0 = False
-		RCSBuildAid v0.7.7.34644 = False
-		SCANsat v1.5.0.2 / vv15.2 = False
-		scatterer v1.0.5939.25400 = False
-		KerbalAlarmClock v3.6.0.0 = False
-		MiniAVC v1.0.2.3 = False
-		[x] Science! v4.15.5937.37905 = False
-		AutoSave = False
-		BetterCrewAssignment = False
-		BoulderCo = False
-		EnvironmentalVisualEnhancements = False
-		KerbalEngineer = False
-		MakeItSmall = False
-		MissionControllerEC = False
-		NavyFish = False
-		RCSBuildAid = False
-		SCANsat = False
-		scatterer = False
-		StationScience = False
-		TriggerTech = False
-		[x] Science! = False
-		ModuleManager.2.6.21.dll = False
-		ModuleManager.ConfigCache = False
-		ModuleManager.ConfigSHA = False
-		ModuleManager.Physics = False
-		ModuleManager.TechTree = False
-		KerbalEngineer v1.1.0.2 = False
-		MiniAVC v1.0.3.2 = False
+		MechJeb2 v2.5.1.0 / v / v2.5.7.0 = False
 	}
 	ROSTER
 	{
