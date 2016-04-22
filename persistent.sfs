@@ -862,7 +862,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 6593476.37874154
+		UT = 6593505.55874088
 		activeVessel = 0
 		mapViewFiltering = 1022
 		VESSEL
@@ -45094,13 +45094,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 100757.376703773
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 138.282158857414
-				LAN = 196.12265834493
-				MNA = 3.14159265358979
-				EPH = 6593471.29874165
+				LPE = 118.289750960753
+				LAN = 233.132925006166
+				MNA = -Infinity
+				EPH = 6593496.79874108
 				REF = 2
 			}
 			PART
@@ -80363,13 +80363,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 100774.462791327
+				SMA = 643205.661216223
 				ECC = 1
 				INC = NaN
-				LPE = 137.81734971217
-				LAN = 196.12265834493
+				LPE = 118.329878671507
+				LAN = 233.132925006166
 				MNA = 3.14159265358979
-				EPH = 6593471.29874165
+				EPH = 6593496.79874108
 				REF = 2
 			}
 			PART
@@ -93274,13 +93274,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 138.275716926442
-				LAN = 196.12265834493
+				LPE = 118.289915854381
+				LAN = 233.132925006166
 				MNA = -Infinity
-				EPH = 6593471.29874165
+				EPH = 6593496.79874108
 				REF = 2
 			}
 			PART
@@ -97146,57 +97146,57 @@ GAME
 	}
 	LoaderInfo
 	{
-		KerbalEngineer v1.1.0.1 = True
+		ModuleManager.2.6.21 v2.6.21.0 = True
+		BetterCrewAssignment v0.0.0.0 = True
+		Atmosphere v1.5.5933.38810 / v1.0.0.0 = True
+		CelestialShadows v1.5.5933.38810 / v1.0.0.0 = True
+		CityLights v1.5.5933.38811 / v1.0.0.0 = True
+		EVEManager v1.5.5933.38810 / v1.0.0.0 = True
+		PartFX v1.5.5933.38810 / v1.0.0.0 = True
+		PQSManager v1.5.5933.38810 / v1.0.0.0 = True
+		ShaderLoader v1.5.5933.38810 / v1.0.0.0 = True
+		Terrain v1.5.5933.38810 / v1.0.0.0 = True
+		TextureConfig v1.5.5933.38810 / v1.0.0.0 = True
+		Utils v1.5.5933.38809 / v1.0.0.0 = True
+		_BuildManager v1.5.5933.38811 / v1.0.0.0 = True
+		KerbalEngineer v1.1.0.2 = True
 		KerbalEngineer.Unity v1.0.0.0 = True
+		MiniAVC v1.0.3.2 = True
+		MakeItSmall v1.1.0.0 = True
+		MechJeb2 v2.5.1.0 / vDev #572 Sarbian / v2.5.6.0 = True
+		MissionControllerEC v1.3.0.0 = True
+		DockingPortAlignmentIndicator v1.0.0.0 = True
+		DPAI_RPM v1.0.0.0 = True
 		MiniAVC v1.0.3.0 = True
-		MechJeb2 v2.5.1.0 / vDev #576 Sarbian / v2.5.6.0 = True
+		ModuleDockingNodeNamed v1.0.0.0 = True
+		RCSBuildAid v0.7.7.34644 = True
+		SCANsat v1.5.0.2 / vv15.2 = True
+		scatterer v1.0.5939.25400 = True
+		KerbalAlarmClock v3.6.0.0 = True
+		MiniAVC v1.0.2.3 = True
+		[x] Science! v4.15.5937.37905 = True
+		AutoSave = True
+		BetterCrewAssignment = True
+		BoulderCo = True
+		EnvironmentalVisualEnhancements = True
 		KerbalEngineer = True
+		MakeItSmall = True
 		MechJeb2 = True
-		ModuleManager.2.6.21 v2.6.21.0 = False
-		BetterCrewAssignment v0.0.0.0 = False
-		Atmosphere v1.5.5933.38810 / v1.0.0.0 = False
-		CelestialShadows v1.5.5933.38810 / v1.0.0.0 = False
-		CityLights v1.5.5933.38811 / v1.0.0.0 = False
-		EVEManager v1.5.5933.38810 / v1.0.0.0 = False
-		PartFX v1.5.5933.38810 / v1.0.0.0 = False
-		PQSManager v1.5.5933.38810 / v1.0.0.0 = False
-		ShaderLoader v1.5.5933.38810 / v1.0.0.0 = False
-		Terrain v1.5.5933.38810 / v1.0.0.0 = False
-		TextureConfig v1.5.5933.38810 / v1.0.0.0 = False
-		Utils v1.5.5933.38809 / v1.0.0.0 = False
-		_BuildManager v1.5.5933.38811 / v1.0.0.0 = False
-		KerbalEngineer v1.1.0.2 = False
-		MiniAVC v1.0.3.2 = False
-		MakeItSmall v1.1.0.0 = False
-		MechJeb2 v2.5.1.0 / vDev #572 Sarbian / v2.5.6.0 = False
-		MissionControllerEC v1.3.0.0 = False
-		DockingPortAlignmentIndicator v1.0.0.0 = False
-		DPAI_RPM v1.0.0.0 = False
-		ModuleDockingNodeNamed v1.0.0.0 = False
-		RCSBuildAid v0.7.7.34644 = False
-		SCANsat v1.5.0.2 / vv15.2 = False
-		scatterer v1.0.5939.25400 = False
-		KerbalAlarmClock v3.6.0.0 = False
-		MiniAVC v1.0.2.3 = False
-		[x] Science! v4.15.5937.37905 = False
-		AutoSave = False
-		BetterCrewAssignment = False
-		BoulderCo = False
-		EnvironmentalVisualEnhancements = False
-		MakeItSmall = False
-		MissionControllerEC = False
-		NavyFish = False
-		RCSBuildAid = False
-		SCANsat = False
-		scatterer = False
-		StationScience = False
-		TriggerTech = False
-		[x] Science! = False
-		ModuleManager.2.6.21.dll = False
-		ModuleManager.ConfigCache = False
-		ModuleManager.ConfigSHA = False
-		ModuleManager.Physics = False
-		ModuleManager.TechTree = False
+		MissionControllerEC = True
+		NavyFish = True
+		RCSBuildAid = True
+		SCANsat = True
+		scatterer = True
+		StationScience = True
+		TriggerTech = True
+		[x] Science! = True
+		ModuleManager.2.6.21.dll = True
+		ModuleManager.ConfigCache = True
+		ModuleManager.ConfigSHA = True
+		ModuleManager.Physics = True
+		ModuleManager.TechTree = True
+		KerbalEngineer v1.1.0.1 = False
+		MechJeb2 v2.5.1.0 / vDev #576 Sarbian / v2.5.6.0 = False
 		MechJeb2 v2.5.1.0 / vDev #573 Sarbian / v2.5.6.0 = False
 	}
 	ROSTER
