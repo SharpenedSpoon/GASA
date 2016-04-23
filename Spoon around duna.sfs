@@ -7,7 +7,7 @@ GAME
 	linkCaption = 
 	Mode = SANDBOX
 	Status = 1
-	scene = 7
+	scene = 5
 	editor = None
 	flag = Squad/Flags/NASA
 	launchID = 24
@@ -954,8 +954,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 17550915.6015098
-		activeVessel = 34
+		UT = 17550960.7415088
+		activeVessel = 0
 		mapViewFiltering = 1022
 		VESSEL
 		{
@@ -57501,10 +57501,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 127.186168046903
-				LAN = 106.700816587569
-				MNA = -Infinity
-				EPH = 17542970.1309219
+				LPE = 107.22187718985
+				LAN = 106.925020984999
+				MNA = Infinity
+				EPH = 17550958.6815088
 				REF = 2
 			}
 			PART
@@ -92285,13 +92285,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = 100753.182103749
 				ECC = 1
 				INC = NaN
-				LPE = 127.187092184301
-				LAN = 106.700816587569
-				MNA = -Infinity
-				EPH = 17542970.1309219
+				LPE = 107.219696905128
+				LAN = 106.925020984999
+				MNA = 3.14159265358979
+				EPH = 17550958.6815088
 				REF = 2
 			}
 			PART
@@ -105184,13 +105184,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 101027.541251185
+				SMA = 100752.632818777
 				ECC = 1
 				INC = NaN
-				LPE = 127.186630243105
-				LAN = 106.700816587569
+				LPE = 107.216184355723
+				LAN = 106.925020984999
 				MNA = 3.14159265358979
-				EPH = 17542970.1309219
+				EPH = 17550958.6815088
 				REF = 2
 			}
 			PART
@@ -117362,13 +117362,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 126.811458054308
-				LAN = 106.700816587569
+				LPE = 106.865514919118
+				LAN = 106.925020984999
 				MNA = -Infinity
-				EPH = 17542970.1309219
+				EPH = 17550958.6815088
 				REF = 2
 			}
 			PART
@@ -133766,13 +133766,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 101025.931082869
+				SMA = 100754.741056626
 				ECC = 1
 				INC = NaN
-				LPE = 127.187323059261
-				LAN = 106.700816587569
+				LPE = 107.235906651584
+				LAN = 106.925020984999
 				MNA = 3.14159265358979
-				EPH = 17542970.1309219
+				EPH = 17550958.6815088
 				REF = 2
 			}
 			PART
@@ -146959,33 +146959,33 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 3052139.36090519
+			met = 3052182.42090423
 			lct = 14498776.2406046
-			lastUT = 17550915.6015098
+			lastUT = 17550958.6615088
 			root = 0
-			lat = 14.6664611524496
-			lon = 236.741953814786
-			alt = 48369.1003439028
+			lat = 16.7160403387207
+			lon = 242.821441950824
+			alt = 48458.4246197201
 			hgt = -1
-			nrm = 0.7938679,-0.007591784,0.608043
-			rot = 0.5448387,-0.5423183,-0.6090429,-0.1952139
-			CoM = 0.01368046,-13.55842,0.06058884
+			nrm = 0.7948238,-0.003860503,0.606828
+			rot = 0.5603622,-0.538834,-0.5810103,-0.2409963
+			CoM = 0.0134449,-13.55956,0.06021452
 			stg = 7
 			prst = False
 			ref = 0
 			ctrl = True
-			cPch = 0.03199993
-			cHdg = -2.84
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 298219.080120536
-				ECC = 0.00291861183236858
-				INC = 24.6768305267499
-				LPE = 297.235881663201
-				LAN = 213.777798344908
-				MNA = 1.7413733125959
-				EPH = 17550915.6015098
+				SMA = 298225.6230849
+				ECC = 0.00284935509262811
+				INC = 24.6774199350985
+				LPE = 297.482723595199
+				LAN = 213.77915661978
+				MNA = 1.84574162383479
+				EPH = 17550958.6615088
 				REF = 4
 			}
 			PART
@@ -147010,8 +147010,8 @@ GAME
 				attN = bottom, 17
 				attN = top, 269
 				mass = 4.848
-				temp = 284.165281605046
-				tempExt = 283.907510114825
+				temp = 285.496842440587
+				tempExt = 285.256970175343
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -149538,7 +149538,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 499.989835522347
+					amount = 499.538633345335
 					maxAmount = 500
 					flowState = True
 					isTweakable = True
@@ -149578,8 +149578,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.1
-				temp = 283.060839201921
-				tempExt = 282.998106064957
+				temp = 283.326368582028
+				tempExt = 283.671593654603
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -149800,8 +149800,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.1
-				temp = 283.060839201921
-				tempExt = 282.998106064957
+				temp = 283.326368582028
+				tempExt = 283.671593654603
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150022,8 +150022,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.1
-				temp = 283.060839201921
-				tempExt = 282.998106064957
+				temp = 283.326368582028
+				tempExt = 283.671593654603
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150244,8 +150244,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.075
-				temp = 283.701253903297
-				tempExt = 283.527074043202
+				temp = 283.882358308691
+				tempExt = 284.343919900833
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150466,8 +150466,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.075
-				temp = 283.701253903297
-				tempExt = 283.527074043202
+				temp = 283.882358308691
+				tempExt = 284.343919900833
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150688,8 +150688,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = 283.505536896071
-				tempExt = 283.540171543067
+				temp = 284.479897068444
+				tempExt = 284.702982275116
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150816,8 +150816,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = 283.505536896071
-				tempExt = 283.540171543067
+				temp = 284.479897068444
+				tempExt = 284.702982275116
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -150944,8 +150944,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.03
-				temp = 283.97968047557
-				tempExt = 283.69335769048
+				temp = 284.01219450976
+				tempExt = 284.272448140491
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151101,8 +151101,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 8
 				mass = 0.03
-				temp = 283.816526488435
-				tempExt = 283.544277295309
+				temp = 283.897314278716
+				tempExt = 283.811733285692
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151258,8 +151258,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 8
 				mass = 0.03
-				temp = 283.816537406044
-				tempExt = 283.544284218611
+				temp = 283.897315761139
+				tempExt = 283.811734225748
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151415,8 +151415,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.03
-				temp = 283.506514636625
-				tempExt = 283.444241933511
+				temp = 283.72439707722
+				tempExt = 284.095198307243
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151572,8 +151572,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.03
-				temp = 283.460586514157
-				tempExt = 283.231018200634
+				temp = 283.579246384701
+				tempExt = 283.547419573853
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151729,8 +151729,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.03
-				temp = 283.460582477933
-				tempExt = 283.231015641073
+				temp = 283.579245836651
+				tempExt = 283.547419226313
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -151886,8 +151886,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.03
-				temp = 283.508744880207
-				tempExt = 283.445605902954
+				temp = 283.736268610729
+				tempExt = 284.0989777076
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -152043,8 +152043,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 14
 				mass = 0.03
-				temp = 283.463008455552
-				tempExt = 283.233036011229
+				temp = 283.578820902813
+				tempExt = 283.548306018095
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -152200,8 +152200,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 14
 				mass = 0.03
-				temp = 283.463012974249
-				tempExt = 283.23303887675
+				temp = 283.578821516375
+				tempExt = 283.54830640718
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -152360,8 +152360,8 @@ GAME
 				attN = bottom, 18
 				attN = top, 0
 				mass = 1
-				temp = 290.751700720294
-				tempExt = 292.97888542707
+				temp = 296.838136873375
+				tempExt = 298.121474128299
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -152569,8 +152569,8 @@ GAME
 				attN = top, 17
 				attN = bottom, 19
 				mass = 0.8
-				temp = 305.480191958191
-				tempExt = 305.996689545241
+				temp = 314.560854213953
+				tempExt = 313.944453425081
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -152749,8 +152749,8 @@ GAME
 				attN = top, 18
 				attN = bottom, 159
 				mass = 3
-				temp = 307.692620251941
-				tempExt = 309.391029635699
+				temp = 316.632320512794
+				tempExt = 316.619860424577
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -152867,8 +152867,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.25
-				temp = 282.909768920373
-				tempExt = 282.777783442295
+				temp = 283.706764490883
+				tempExt = 283.602015896237
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -153040,8 +153040,8 @@ GAME
 				sym = 68
 				srfN = srfAttach, 19
 				mass = 0.4
-				temp = 301.724572809721
-				tempExt = 305.32324990096
+				temp = 308.177973282862
+				tempExt = 312.203281119471
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -153219,8 +153219,8 @@ GAME
 				attN = top, 23
 				attN = bottom, 56
 				mass = 7.14
-				temp = 301.114310108213
-				tempExt = 299.995165465924
+				temp = 307.433053659807
+				tempExt = 306.22651797019
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -153273,8 +153273,8 @@ GAME
 				attN = top, 24
 				attN = bottom, 22
 				mass = 1.79
-				temp = 299.271729488173
-				tempExt = 298.33988159069
+				temp = 306.722968428658
+				tempExt = 305.880108085932
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -153337,8 +153337,8 @@ GAME
 				srfN = , -1
 				attN = bottom, 23
 				mass = 0.2
-				temp = 297.375726852852
-				tempExt = 296.795575200881
+				temp = 305.486799087625
+				tempExt = 304.85210486038
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -153377,8 +153377,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 23
 				mass = 0.05
-				temp = 303.561209262404
-				tempExt = 304.089333372885
+				temp = 311.611054927947
+				tempExt = 311.414841632788
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -153469,8 +153469,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.05
-				temp = 304.259840510389
-				tempExt = 304.582458015493
+				temp = 311.971013003157
+				tempExt = 311.65266734881
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -153561,8 +153561,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.05
-				temp = 361.711256445101
-				tempExt = 354.313644459948
+				temp = 337.176196895006
+				tempExt = 333.773471220522
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -153653,8 +153653,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.05
-				temp = 311.619763912209
-				tempExt = 314.80190677304
+				temp = 319.267943880677
+				tempExt = 319.114011519722
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -153745,8 +153745,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.307053344153
-				tempExt = 294.434849562696
+				temp = 298.7364316316
+				tempExt = 300.718868240439
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -153902,8 +153902,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 29
 				mass = 0.03
-				temp = 289.554736878949
-				tempExt = 291.082180399978
+				temp = 295.744434403589
+				tempExt = 297.292869517125
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154059,8 +154059,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 29
 				mass = 0.03
-				temp = 289.554719325393
-				tempExt = 291.082169271434
+				temp = 295.744116453463
+				tempExt = 297.292675410709
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154216,8 +154216,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.401848133775
-				tempExt = 294.489455743167
+				temp = 298.773429223319
+				tempExt = 300.745027768065
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154373,8 +154373,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 32
 				mass = 0.03
-				temp = 289.643069146559
-				tempExt = 291.157671212338
+				temp = 295.797877543579
+				tempExt = 297.336142487086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154530,8 +154530,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 32
 				mass = 0.03
-				temp = 289.643069146559
-				tempExt = 291.157671212338
+				temp = 295.797877543579
+				tempExt = 297.336142487086
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154687,8 +154687,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.403428940416
-				tempExt = 294.490543879479
+				temp = 298.777158625429
+				tempExt = 300.746761156417
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -154844,8 +154844,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 35
 				mass = 0.03
-				temp = 289.645248657861
-				tempExt = 291.159442626249
+				temp = 295.799904313724
+				tempExt = 297.338012729948
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155001,8 +155001,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 35
 				mass = 0.03
-				temp = 289.645239920156
-				tempExt = 291.159437086764
+				temp = 295.799684819839
+				tempExt = 297.33787660528
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155158,8 +155158,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155315,8 +155315,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 38
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155472,8 +155472,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 38
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155629,8 +155629,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155786,8 +155786,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 41
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -155943,8 +155943,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 41
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156100,8 +156100,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156257,8 +156257,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 44
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156414,8 +156414,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 44
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156571,8 +156571,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156728,8 +156728,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 47
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -156885,8 +156885,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 47
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157042,8 +157042,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157199,8 +157199,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 50
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157356,8 +157356,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 50
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157513,8 +157513,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.03
-				temp = 292.395512374984
-				tempExt = 294.485094570926
+				temp = 298.773072289186
+				tempExt = 300.743815823941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157670,8 +157670,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 53
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157827,8 +157827,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 53
 				mass = 0.03
-				temp = 289.634351333408
-				tempExt = 291.150582613384
+				temp = 295.793636579557
+				tempExt = 297.332989127941
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -157986,8 +157986,8 @@ GAME
 				attN = top, 22
 				attN = bottom, 57
 				mass = 1.79
-				temp = 295.415148752459
-				tempExt = 295.893632050516
+				temp = 301.697500728516
+				tempExt = 302.008990962952
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -158039,8 +158039,8 @@ GAME
 				attN = top, 56
 				attN = bottom, 58
 				mass = 0.71
-				temp = 290.760150024011
-				tempExt = 291.417946562436
+				temp = 296.652387407536
+				tempExt = 296.994537852735
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -158061,7 +158061,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 417.782696381805
+					amount = 417.759875160934
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -158095,8 +158095,8 @@ GAME
 				attN = bottom03, 60
 				attN = bottom04, 59
 				mass = 0.7
-				temp = 289.472955529549
-				tempExt = 288.381490263912
+				temp = 294.687942680958
+				tempExt = 292.863100634101
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -158139,8 +158139,8 @@ GAME
 				attN = top, 58
 				attN = bottom, -1
 				mass = 3
-				temp = 284.58000273404
-				tempExt = 285.094214080018
+				temp = 286.350285037498
+				tempExt = 287.433466876255
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -158435,7 +158435,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -158468,8 +158468,8 @@ GAME
 				attN = top, 58
 				attN = bottom, -1
 				mass = 3
-				temp = 284.520779276208
-				tempExt = 284.928477084045
+				temp = 286.28894346398
+				tempExt = 287.315936209008
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -158764,7 +158764,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -158797,8 +158797,8 @@ GAME
 				attN = top, 58
 				attN = bottom, -1
 				mass = 3
-				temp = 284.520793414641
-				tempExt = 284.928487831256
+				temp = 286.288954063067
+				tempExt = 287.315944264445
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159093,7 +159093,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -159122,8 +159122,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 58
 				mass = 0.015
-				temp = 288.859970932338
-				tempExt = 288.376680885645
+				temp = 294.048673722239
+				tempExt = 293.522505858733
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159250,8 +159250,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 58
 				mass = 0.015
-				temp = 288.859970932338
-				tempExt = 288.376680885645
+				temp = 294.048673722239
+				tempExt = 293.522505858733
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159378,8 +159378,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 58
 				mass = 0.03
-				temp = 286.054844885487
-				tempExt = 286.490662950157
+				temp = 289.44074131006
+				tempExt = 290.134469863403
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159535,8 +159535,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 64
 				mass = 0.03
-				temp = 285.043246853172
-				tempExt = 285.33376276971
+				temp = 287.767678815771
+				tempExt = 288.383971703345
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159692,8 +159692,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 64
 				mass = 0.03
-				temp = 285.043246853172
-				tempExt = 285.33376276971
+				temp = 287.767678815771
+				tempExt = 288.383971703345
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -159849,8 +159849,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 22
 				mass = 0.05
-				temp = 311.619763912209
-				tempExt = 314.80190677304
+				temp = 319.267943880677
+				tempExt = 319.114011519722
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -159942,8 +159942,8 @@ GAME
 				sym = 21
 				srfN = srfAttach, 19
 				mass = 0.4
-				temp = 301.374926808389
-				tempExt = 305.156702582621
+				temp = 307.655483897434
+				tempExt = 311.926872405336
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -160121,8 +160121,8 @@ GAME
 				attN = top, 70
 				attN = bottom, 82
 				mass = 7.14
-				temp = 300.642292195868
-				tempExt = 299.16614575491
+				temp = 306.875271222653
+				tempExt = 305.313857557332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -160175,8 +160175,8 @@ GAME
 				attN = top, 71
 				attN = bottom, 69
 				mass = 1.79
-				temp = 298.712654790387
-				tempExt = 297.238467552024
+				temp = 306.101676715933
+				tempExt = 304.721229767099
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -160239,8 +160239,8 @@ GAME
 				srfN = , -1
 				attN = bottom, 70
 				mass = 0.2
-				temp = 296.770152587736
-				tempExt = 295.869577002191
+				temp = 304.825762116435
+				tempExt = 303.878790396206
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -160279,8 +160279,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 70
 				mass = 0.05
-				temp = 303.277077137207
-				tempExt = 303.692597951362
+				temp = 311.300127643741
+				tempExt = 310.984167699658
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -160371,8 +160371,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.05
-				temp = 304.022304404713
-				tempExt = 304.231447455901
+				temp = 311.69186714203
+				tempExt = 311.260321307455
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -160463,8 +160463,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.05
-				temp = 361.473713209255
-				tempExt = 353.961334750439
+				temp = 336.897043032567
+				tempExt = 333.379663725408
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -160555,8 +160555,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.05
-				temp = 311.382226740742
-				tempExt = 314.45070203896
+				temp = 318.988796828115
+				tempExt = 318.721447866388
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -160647,8 +160647,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 292.007298491945
-				tempExt = 293.928683780634
+				temp = 298.295722137549
+				tempExt = 300.099509380306
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -160804,8 +160804,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 76
 				mass = 0.03
-				temp = 289.289405408574
-				tempExt = 290.72737185734
+				temp = 295.351286700554
+				tempExt = 296.816637705146
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -160961,8 +160961,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 76
 				mass = 0.03
-				temp = 289.2894203406
-				tempExt = 290.727381324014
+				temp = 295.351664421198
+				tempExt = 296.816862456126
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161118,8 +161118,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.936178735188
-				tempExt = 293.887826454083
+				temp = 298.265481650866
+				tempExt = 300.078858902338
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161275,8 +161275,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 79
 				mass = 0.03
-				temp = 289.223572763122
-				tempExt = 290.671052460465
+				temp = 295.310367503217
+				tempExt = 296.78332405206
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161432,8 +161432,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 79
 				mass = 0.03
-				temp = 289.223581201193
-				tempExt = 290.671057810082
+				temp = 295.310511829047
+				tempExt = 296.783412905622
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161591,8 +161591,8 @@ GAME
 				attN = top, 69
 				attN = bottom, 83
 				mass = 1.79
-				temp = 294.948573312785
-				tempExt = 295.14442790733
+				temp = 301.159509503306
+				tempExt = 301.190741975737
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161644,8 +161644,8 @@ GAME
 				attN = top, 82
 				attN = bottom, 84
 				mass = 0.71
-				temp = 290.364477973116
-				tempExt = 290.849054416166
+				temp = 296.193385906387
+				tempExt = 296.399971927253
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161666,7 +161666,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 417.782696381805
+					amount = 417.759875160934
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -161700,8 +161700,8 @@ GAME
 				attN = bottom03, 86
 				attN = bottom04, 85
 				mass = 0.7
-				temp = 289.116909614656
-				tempExt = 288.084802380008
+				temp = 294.279486325148
+				tempExt = 292.556508963014
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -161744,8 +161744,8 @@ GAME
 				attN = top, 84
 				attN = bottom, -1
 				mass = 3
-				temp = 284.43973759668
-				tempExt = 284.954173456996
+				temp = 286.160580378429
+				tempExt = 287.253948356481
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -162040,7 +162040,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -162073,8 +162073,8 @@ GAME
 				attN = top, 84
 				attN = bottom, -1
 				mass = 3
-				temp = 284.362131458836
-				tempExt = 284.730237727362
+				temp = 286.079454041559
+				tempExt = 287.085674608021
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -162369,7 +162369,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -162402,8 +162402,8 @@ GAME
 				attN = top, 84
 				attN = bottom, -1
 				mass = 3
-				temp = 284.3735743256
-				tempExt = 284.74840378006
+				temp = 286.088053077153
+				tempExt = 287.092210087807
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -162698,7 +162698,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -162727,8 +162727,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 84
 				mass = 0.015
-				temp = 288.507171848881
-				tempExt = 288.043488351862
+				temp = 293.647454870076
+				tempExt = 293.124913676679
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -162855,8 +162855,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 84
 				mass = 0.015
-				temp = 288.507171848881
-				tempExt = 288.043488351862
+				temp = 293.647454870076
+				tempExt = 293.124913676679
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -162983,8 +162983,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 84
 				mass = 0.03
-				temp = 285.818998421087
-				tempExt = 286.232951336678
+				temp = 289.139425087066
+				tempExt = 289.841668865655
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163140,8 +163140,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 90
 				mass = 0.03
-				temp = 284.849758120206
-				tempExt = 285.111202820777
+				temp = 287.501298665857
+				tempExt = 288.109321087268
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163297,8 +163297,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 90
 				mass = 0.03
-				temp = 284.849758120206
-				tempExt = 285.111202820777
+				temp = 287.501298665857
+				tempExt = 288.109321087268
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163454,8 +163454,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 82
 				mass = 0.03
-				temp = 288.918214799711
-				tempExt = 290.690385527965
+				temp = 294.047867186042
+				tempExt = 296.050963982072
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163611,8 +163611,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 93
 				mass = 0.03
-				temp = 287.039111603975
-				tempExt = 288.131552812403
+				temp = 291.648332598935
+				tempExt = 293.006274170038
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163768,8 +163768,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 93
 				mass = 0.03
-				temp = 287.039111603975
-				tempExt = 288.131552812403
+				temp = 291.648332598935
+				tempExt = 293.006274170038
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -163925,8 +163925,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997111407338
-				tempExt = 293.921671430032
+				temp = 298.290043500085
+				tempExt = 300.095431951265
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164082,8 +164082,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 96
 				mass = 0.03
-				temp = 289.27539608388
-				tempExt = 290.715979018037
+				temp = 295.342955234522
+				tempExt = 296.809901631327
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164239,8 +164239,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 96
 				mass = 0.03
-				temp = 289.275395418768
-				tempExt = 290.715978596366
+				temp = 295.342955144219
+				tempExt = 296.809901574089
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164396,8 +164396,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347063
-				tempExt = 293.921633528897
+				temp = 298.290012611226
+				tempExt = 300.095410694403
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164553,8 +164553,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 99
 				mass = 0.03
-				temp = 289.275319990025
-				tempExt = 290.715917203185
+				temp = 295.342912687326
+				tempExt = 296.809867052553
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164710,8 +164710,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 99
 				mass = 0.03
-				temp = 289.275319990025
-				tempExt = 290.715917203185
+				temp = 295.342912687326
+				tempExt = 296.809867052553
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -164867,8 +164867,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347063
-				tempExt = 293.921633528897
+				temp = 298.290012611226
+				tempExt = 300.095410694403
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165024,8 +165024,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 102
 				mass = 0.03
-				temp = 289.275319990025
-				tempExt = 290.715917203185
+				temp = 295.342912687326
+				tempExt = 296.809867052553
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165181,8 +165181,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 102
 				mass = 0.03
-				temp = 289.275319990025
-				tempExt = 290.715917203185
+				temp = 295.342912687326
+				tempExt = 296.809867052553
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165338,8 +165338,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347173
-				tempExt = 293.921633528973
+				temp = 298.290012611288
+				tempExt = 300.095410694446
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165495,8 +165495,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 105
 				mass = 0.03
-				temp = 289.275319990176
-				tempExt = 290.715917203308
+				temp = 295.342912687412
+				tempExt = 296.809867052623
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165652,8 +165652,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 105
 				mass = 0.03
-				temp = 289.275319990176
-				tempExt = 290.715917203308
+				temp = 295.342912687412
+				tempExt = 296.809867052623
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165809,8 +165809,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347381
-				tempExt = 293.921633529116
+				temp = 298.290012611405
+				tempExt = 300.095410694526
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -165966,8 +165966,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 108
 				mass = 0.03
-				temp = 289.275319990464
-				tempExt = 290.715917203542
+				temp = 295.342912687574
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166123,8 +166123,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 108
 				mass = 0.03
-				temp = 289.275319990463
-				tempExt = 290.715917203542
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166280,8 +166280,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347381
-				tempExt = 293.921633529116
+				temp = 298.290012611405
+				tempExt = 300.095410694525
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166437,8 +166437,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 111
 				mass = 0.03
-				temp = 289.275319990464
-				tempExt = 290.715917203542
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166594,8 +166594,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 111
 				mass = 0.03
-				temp = 289.275319990463
-				tempExt = 290.715917203541
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166751,8 +166751,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347381
-				tempExt = 293.921633529116
+				temp = 298.290012611405
+				tempExt = 300.095410694525
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -166908,8 +166908,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 114
 				mass = 0.03
-				temp = 289.275319990464
-				tempExt = 290.715917203542
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167065,8 +167065,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 114
 				mass = 0.03
-				temp = 289.275319990463
-				tempExt = 290.715917203541
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167222,8 +167222,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.03
-				temp = 291.997056347381
-				tempExt = 293.921633529116
+				temp = 298.290012611405
+				tempExt = 300.095410694525
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167379,8 +167379,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 117
 				mass = 0.03
-				temp = 289.275319990464
-				tempExt = 290.715917203542
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167536,8 +167536,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 117
 				mass = 0.03
-				temp = 289.275319990463
-				tempExt = 290.715917203541
+				temp = 295.342912687573
+				tempExt = 296.809867052754
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167693,8 +167693,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 69
 				mass = 0.05
-				temp = 311.382226740742
-				tempExt = 314.45070203896
+				temp = 318.988796828115
+				tempExt = 318.721447866388
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -167785,8 +167785,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.15
-				temp = 291.122710201613
-				tempExt = 300.734290621217
+				temp = 298.481623108136
+				tempExt = 308.044490800332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167836,8 +167836,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.15
-				temp = 291.122710201613
-				tempExt = 300.734290621217
+				temp = 298.481623108136
+				tempExt = 308.044490800332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167887,8 +167887,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.15
-				temp = 291.122710201613
-				tempExt = 300.734290621217
+				temp = 298.481623108136
+				tempExt = 308.044490800332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167938,8 +167938,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.15
-				temp = 291.122710201613
-				tempExt = 300.734290621217
+				temp = 298.481623108136
+				tempExt = 308.044490800332
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -167989,8 +167989,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.02
-				temp = 307.14851207532
-				tempExt = 308.022619154587
+				temp = 316.351731892107
+				tempExt = 316.201974622513
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -168011,7 +168011,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 399.989835522347
+					amount = 399.538633345335
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -168040,8 +168040,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.02
-				temp = 307.14851207532
-				tempExt = 308.022619154587
+				temp = 316.351731892107
+				tempExt = 316.201974622513
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -168062,7 +168062,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 399.989835522347
+					amount = 399.538633345335
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -168092,8 +168092,8 @@ GAME
 				srfN = srfAttach, 19
 				attN = bottom, -1
 				mass = 0.025
-				temp = 304.946840316059
-				tempExt = 307.041051235383
+				temp = 315.188507799907
+				tempExt = 315.676943293439
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -168247,8 +168247,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.0001
-				temp = 307.491301228482
-				tempExt = 308.64527066269
+				temp = 316.487579193663
+				tempExt = 316.386174709814
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -168779,7 +168779,7 @@ GAME
 							markUT = 14488119.3991152
 							deltaVExpended = NaN
 							dragLosses = 80.5756254110528
-							gravityLosses = 96524.1842068324
+							gravityLosses = 96524.4116211227
 							steeringLosses = NaN
 							markLAN = 193.969158935547
 							markLatitude = -0.0971879697182247
@@ -168887,7 +168887,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.98983552234478
+					amount = 4.5386333453107
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -168918,8 +168918,8 @@ GAME
 				attN = top, 130
 				attN = bottom, 19
 				mass = 0.2
-				temp = 306.792383918966
-				tempExt = 307.49869647166
+				temp = 315.830786958922
+				tempExt = 315.576960995944
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -168940,7 +168940,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.98983552229
+					amount = 3999.53863334493
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -168971,8 +168971,8 @@ GAME
 				attN = top, 131
 				attN = bottom, 129
 				mass = 0.02
-				temp = 299.524719833499
-				tempExt = 301.868995991345
+				temp = 306.519076355089
+				tempExt = 309.037015595666
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -169200,8 +169200,8 @@ GAME
 				attN = bottom, 133
 				attN = top, 130
 				mass = 0.04
-				temp = 291.495971983439
-				tempExt = 291.933093572884
+				temp = 295.80371237195
+				tempExt = 296.210234149633
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -169363,7 +169363,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.98983552234478
+					amount = 4.5386333453107
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -169392,8 +169392,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 131
 				mass = 0.05
-				temp = 289.244267839462
-				tempExt = 289.790043003064
+				temp = 293.831156504543
+				tempExt = 294.27572576902
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -169424,7 +169424,7 @@ GAME
 							guiActive = False
 							guiActiveUncommand = False
 							guiIcon = Board
-							guiName = Board 
+							guiName = Board
 							category = Board
 							guiActiveUnfocused = True
 							unfocusedRange = 2
@@ -169508,8 +169508,8 @@ GAME
 				attN = top, 131
 				attN = bottom, 146
 				mass = 0.05
-				temp = 285.243997233199
-				tempExt = 285.155047254027
+				temp = 286.755531596383
+				tempExt = 286.455754964279
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -169562,8 +169562,8 @@ GAME
 				sym = 143
 				srfN = srfAttach, 133
 				mass = 0.03
-				temp = 284.392224597262
-				tempExt = 284.349329542776
+				temp = 285.250288701768
+				tempExt = 285.296638051187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -169722,8 +169722,8 @@ GAME
 				sym = 144
 				srfN = srfAttach, 134
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -169882,8 +169882,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 134
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170042,8 +170042,8 @@ GAME
 				sym = 143
 				srfN = srfAttach, 133
 				mass = 0.03
-				temp = 284.392224597262
-				tempExt = 284.349329542776
+				temp = 285.250288701768
+				tempExt = 285.296638051187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170202,8 +170202,8 @@ GAME
 				sym = 144
 				srfN = srfAttach, 137
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170362,8 +170362,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 137
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170522,8 +170522,8 @@ GAME
 				sym = 143
 				srfN = srfAttach, 133
 				mass = 0.03
-				temp = 284.392224597262
-				tempExt = 284.349329542776
+				temp = 285.250288701768
+				tempExt = 285.296638051187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170682,8 +170682,8 @@ GAME
 				sym = 144
 				srfN = srfAttach, 140
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -170842,8 +170842,8 @@ GAME
 				sym = 145
 				srfN = srfAttach, 140
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171002,8 +171002,8 @@ GAME
 				sym = 140
 				srfN = srfAttach, 133
 				mass = 0.03
-				temp = 284.392224597262
-				tempExt = 284.349329542776
+				temp = 285.250288701768
+				tempExt = 285.296638051187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171162,8 +171162,8 @@ GAME
 				sym = 141
 				srfN = srfAttach, 143
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171322,8 +171322,8 @@ GAME
 				sym = 142
 				srfN = srfAttach, 143
 				mass = 0.03
-				temp = 284.138412483933
-				tempExt = 283.987525478641
+				temp = 284.778498009654
+				tempExt = 284.737092990864
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171481,8 +171481,8 @@ GAME
 				attN = top, 133
 				attN = bottom, 147
 				mass = 0.05
-				temp = 284.019699010949
-				tempExt = 283.50594865036
+				temp = 284.377313122475
+				tempExt = 284.167215332387
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171534,8 +171534,8 @@ GAME
 				attN = top, 146
 				attN = bottom, 148
 				mass = 0.01
-				temp = 283.689878481266
-				tempExt = 283.083761399394
+				temp = 283.958281011309
+				tempExt = 283.40935045907
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171587,8 +171587,8 @@ GAME
 				attN = bottom, 149
 				attN = top, 147
 				mass = 0.05
-				temp = 283.604173256893
-				tempExt = 283.226310563698
+				temp = 283.82234421391
+				tempExt = 283.432626567631
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171686,8 +171686,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 148
 				mass = 0.02
-				temp = 283.556038469729
-				tempExt = 283.204863794793
+				temp = 283.760964960446
+				tempExt = 283.405286614999
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -171916,8 +171916,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.015
-				temp = 283.51853427489
-				tempExt = 282.90643978302
+				temp = 283.756976277008
+				tempExt = 283.171338492646
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -172153,8 +172153,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.015
-				temp = 283.51853427489
-				tempExt = 282.90643978302
+				temp = 283.756976277008
+				tempExt = 283.171338492646
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -172390,8 +172390,8 @@ GAME
 				sym = 153
 				srfN = srfAttach, 147
 				mass = 0.015
-				temp = 283.51853427489
-				tempExt = 282.90643978302
+				temp = 283.756976277008
+				tempExt = 283.171338492646
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -172627,8 +172627,8 @@ GAME
 				sym = 152
 				srfN = srfAttach, 147
 				mass = 0.015
-				temp = 283.51853427489
-				tempExt = 282.90643978302
+				temp = 283.756976277008
+				tempExt = 283.171338492646
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -172862,8 +172862,8 @@ GAME
 				sym = 155
 				srfN = srfAttach, 146
 				mass = 0.0175
-				temp = 283.855031999836
-				tempExt = 282.965041701335
+				temp = 284.124127688112
+				tempExt = 283.517937201715
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -172973,8 +172973,8 @@ GAME
 				sym = 154
 				srfN = srfAttach, 146
 				mass = 0.0175
-				temp = 283.855031999836
-				tempExt = 282.965041701335
+				temp = 284.124127688112
+				tempExt = 283.517937201715
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173083,8 +173083,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 146
 				mass = 0.015
-				temp = 283.926610906118
-				tempExt = 283.56347010771
+				temp = 284.274677234882
+				tempExt = 284.0102952932
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173211,8 +173211,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.02
-				temp = 307.14851207532
-				tempExt = 308.022619154587
+				temp = 316.351731892107
+				tempExt = 316.201974622513
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173233,7 +173233,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 399.989835522347
+					amount = 399.538633345335
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -173262,8 +173262,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.02
-				temp = 307.14851207532
-				tempExt = 308.022619154587
+				temp = 316.351731892107
+				tempExt = 316.201974622513
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173284,7 +173284,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 399.989835522347
+					amount = 399.538633345335
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -173315,8 +173315,8 @@ GAME
 				attN = top, 19
 				attN = bottom, 160
 				mass = 3.57
-				temp = 322.433408912943
-				tempExt = 332.726097926151
+				temp = 331.196284535701
+				tempExt = 331.714048286965
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173371,8 +173371,8 @@ GAME
 				attN = bottom03, 162
 				attN = bottom04, 161
 				mass = 0.7
-				temp = 421.657051341964
-				tempExt = 401.283731493441
+				temp = 366.580035757113
+				tempExt = 357.842608070008
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173415,8 +173415,8 @@ GAME
 				attN = top, 160
 				attN = bottom, -1
 				mass = 3
-				temp = 499.245428554363
-				tempExt = 469.110556547426
+				temp = 395.743098687697
+				tempExt = 384.516147880457
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -173711,7 +173711,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -173744,8 +173744,8 @@ GAME
 				attN = top, 160
 				attN = bottom, -1
 				mass = 3
-				temp = 499.245428554363
-				tempExt = 469.110556547426
+				temp = 395.743098687697
+				tempExt = 384.516147880457
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174040,7 +174040,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -174073,8 +174073,8 @@ GAME
 				attN = top, 160
 				attN = bottom, -1
 				mass = 3
-				temp = 499.245428554582
-				tempExt = 469.110556547581
+				temp = 395.743098687724
+				tempExt = 384.516147880477
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174369,7 +174369,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0898355223448275
+					amount = 0
 					maxAmount = 0.1
 					flowState = True
 					isTweakable = False
@@ -174398,8 +174398,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 160
 				mass = 0.015
-				temp = 424.266296663613
-				tempExt = 422.564657323824
+				temp = 394.282898596376
+				tempExt = 382.643252721439
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174526,8 +174526,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 160
 				mass = 0.015
-				temp = 424.266296663613
-				tempExt = 422.564657323824
+				temp = 394.282898596376
+				tempExt = 382.643252721439
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174654,8 +174654,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 160
 				mass = 0.03
-				temp = 378.123841382266
-				tempExt = 382.569743791434
+				temp = 375.509512994083
+				tempExt = 373.96402039093
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174811,8 +174811,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 166
 				mass = 0.03
-				temp = 361.367229730314
-				tempExt = 368.526590389512
+				temp = 375.015154092651
+				tempExt = 373.997812836919
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -174968,8 +174968,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 166
 				mass = 0.03
-				temp = 361.367230292629
-				tempExt = 368.526590744745
+				temp = 375.015154168932
+				tempExt = 373.997812884151
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175125,8 +175125,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.025
-				temp = 319.501605207481
-				tempExt = 325.167761562202
+				temp = 330.018550358547
+				tempExt = 329.225289074659
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175233,8 +175233,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.025
-				temp = 319.501606999604
-				tempExt = 325.167759076876
+				temp = 330.018550681246
+				tempExt = 329.22528834099
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175341,8 +175341,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.025
-				temp = 319.501602412624
-				tempExt = 325.167766371352
+				temp = 330.018549967211
+				tempExt = 329.225290516771
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175449,8 +175449,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.025
-				temp = 319.501603978264
-				tempExt = 325.167763762112
+				temp = 330.018550196451
+				tempExt = 329.225289729405
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175557,8 +175557,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.015
-				temp = 321.868258817585
-				tempExt = 327.433176599801
+				temp = 330.944963609701
+				tempExt = 331.066820683642
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175685,8 +175685,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 304.749691548087
-				tempExt = 314.273143659261
+				temp = 316.683404393434
+				tempExt = 321.089482321178
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175842,8 +175842,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 174
 				mass = 0.03
-				temp = 299.09641029634
-				tempExt = 304.426169992043
+				temp = 311.44562058638
+				tempExt = 314.668016154812
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -175999,8 +175999,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 174
 				mass = 0.03
-				temp = 298.493055176802
-				tempExt = 304.043850946811
+				temp = 311.358513388629
+				tempExt = 314.613081823785
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176156,8 +176156,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.067003378766
-				tempExt = 314.507550256555
+				temp = 316.871558210346
+				tempExt = 321.216872606528
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176313,8 +176313,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 177
 				mass = 0.03
-				temp = 299.294654557611
-				tempExt = 304.635765154243
+				temp = 311.648755210409
+				tempExt = 314.842748550876
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176470,8 +176470,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 177
 				mass = 0.03
-				temp = 299.29463582503
-				tempExt = 304.635753284197
+				temp = 311.655412715807
+				tempExt = 314.846694628448
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176627,8 +176627,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078888078692
-				tempExt = 314.515730920347
+				temp = 316.890569342574
+				tempExt = 321.233104922644
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176784,8 +176784,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 180
 				mass = 0.03
-				temp = 299.310994989899
-				tempExt = 304.649047548529
+				temp = 311.691986464734
+				tempExt = 314.875367194254
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -176941,8 +176941,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 180
 				mass = 0.03
-				temp = 299.311000647422
-				tempExt = 304.649051133461
+				temp = 311.69198723275
+				tempExt = 314.875367680711
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177098,8 +177098,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078671254823
-				tempExt = 314.515581672766
+				temp = 316.890447723054
+				tempExt = 321.233021243456
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177255,8 +177255,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 183
 				mass = 0.03
-				temp = 299.310696861452
-				tempExt = 304.648805216132
+				temp = 311.691819152967
+				tempExt = 314.875231280255
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177412,8 +177412,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 183
 				mass = 0.03
-				temp = 299.310702102847
-				tempExt = 304.648808537381
+				temp = 311.691819864493
+				tempExt = 314.875231730932
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177569,8 +177569,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078547807372
-				tempExt = 314.515496699495
+				temp = 316.890394887251
+				tempExt = 321.234726470606
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177726,8 +177726,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 186
 				mass = 0.03
-				temp = 299.310527884977
-				tempExt = 304.648667727934
+				temp = 311.691823685797
+				tempExt = 314.886198871701
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -177883,8 +177883,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 186
 				mass = 0.03
-				temp = 299.310531366892
-				tempExt = 304.648669934275
+				temp = 311.69172800229
+				tempExt = 314.875610774894
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178040,8 +178040,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.083626161121
-				tempExt = 314.518992325561
+				temp = 316.89322701774
+				tempExt = 321.234933511406
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178197,8 +178197,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 189
 				mass = 0.03
-				temp = 299.317902725636
-				tempExt = 304.654592060615
+				temp = 311.695695961913
+				tempExt = 314.878371021461
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178354,8 +178354,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 189
 				mass = 0.03
-				temp = 299.317131658597
-				tempExt = 304.654103468312
+				temp = 311.695591288552
+				tempExt = 314.878304721911
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178511,8 +178511,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.082752293348
-				tempExt = 314.518390796532
+				temp = 316.892736834234
+				tempExt = 321.234596245198
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178668,8 +178668,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 192
 				mass = 0.03
-				temp = 299.316247021994
-				tempExt = 304.653327602906
+				temp = 311.694959973363
+				tempExt = 314.877784179659
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178825,8 +178825,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 192
 				mass = 0.03
-				temp = 299.31638246627
-				tempExt = 304.653413428172
+				temp = 311.694978360101
+				tempExt = 314.877795825722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -178982,8 +178982,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078380119456
-				tempExt = 314.515381273936
+				temp = 316.890284421184
+				tempExt = 321.23290888511
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179139,8 +179139,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 195
 				mass = 0.03
-				temp = 299.310298863047
-				tempExt = 304.648481291515
+				temp = 311.691594812019
+				tempExt = 314.875048983146
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179296,8 +179296,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 195
 				mass = 0.03
-				temp = 299.31029893199
-				tempExt = 304.648481335201
+				temp = 311.691594821377
+				tempExt = 314.875048989074
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179453,8 +179453,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 304.851095961885
-				tempExt = 314.38724323766
+				temp = 316.798874246725
+				tempExt = 321.170035553796
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179610,8 +179610,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 198
 				mass = 0.03
-				temp = 299.109555889928
-				tempExt = 304.475579399276
+				temp = 311.56590283116
+				tempExt = 314.772940771958
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179767,8 +179767,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 198
 				mass = 0.03
-				temp = 299.109555889928
-				tempExt = 304.475579399276
+				temp = 311.56590283116
+				tempExt = 314.772940771958
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -179924,8 +179924,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078378041567
-				tempExt = 314.515379843652
+				temp = 316.890283255667
+				tempExt = 321.232908083187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180081,8 +180081,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 201
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180238,8 +180238,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 201
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180395,8 +180395,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078378041567
-				tempExt = 314.515379843652
+				temp = 316.890283255667
+				tempExt = 321.232908083187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180552,8 +180552,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 204
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180709,8 +180709,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 204
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -180866,8 +180866,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078378041567
-				tempExt = 314.515379843652
+				temp = 316.890283255667
+				tempExt = 321.232908083187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181023,8 +181023,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 207
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181180,8 +181180,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 207
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181337,8 +181337,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078378041567
-				tempExt = 314.515379843652
+				temp = 316.890283255667
+				tempExt = 321.232908083187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181494,8 +181494,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 210
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181651,8 +181651,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 210
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181808,8 +181808,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 159
 				mass = 0.03
-				temp = 305.078378041567
-				tempExt = 314.515379843652
+				temp = 316.890283255667
+				tempExt = 321.232908083187
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -181965,8 +181965,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 213
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182122,8 +182122,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 213
 				mass = 0.03
-				temp = 299.310296038469
-				tempExt = 304.648478989749
+				temp = 311.691593213027
+				tempExt = 314.875047683433
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182281,8 +182281,8 @@ GAME
 				attN = top, 19
 				attN = bottom, 217
 				mass = 0.2
-				temp = 306.777557859353
-				tempExt = 307.547250713192
+				temp = 315.805187010134
+				tempExt = 315.643610694521
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182380,8 +182380,8 @@ GAME
 				attN = top, 218
 				attN = bottom, 216
 				mass = 0.02
-				temp = 299.596776173242
-				tempExt = 302.022285412818
+				temp = 306.633079526536
+				tempExt = 309.249280038463
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182609,8 +182609,8 @@ GAME
 				attN = bottom, 220
 				attN = top, 217
 				mass = 0.04
-				temp = 291.661163281752
-				tempExt = 292.23730558759
+				temp = 296.071111886923
+				tempExt = 296.69287535044
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -182772,7 +182772,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.98983552234478
+					amount = 4.5386333453107
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -182801,8 +182801,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 218
 				mass = 0.05
-				temp = 289.385100488417
-				tempExt = 289.982426815174
+				temp = 294.059526754615
+				tempExt = 294.584661091374
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182833,7 +182833,7 @@ GAME
 							guiActive = False
 							guiActiveUncommand = False
 							guiIcon = Board
-							guiName = Board 
+							guiName = Board
 							category = Board
 							guiActiveUnfocused = True
 							unfocusedRange = 2
@@ -182917,8 +182917,8 @@ GAME
 				attN = top, 218
 				attN = bottom, 221
 				mass = 0.05
-				temp = 285.506178911256
-				tempExt = 285.840370122976
+				temp = 287.18161407387
+				tempExt = 287.561898855121
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -182970,8 +182970,8 @@ GAME
 				attN = top, 220
 				attN = bottom, 222
 				mass = 0.05
-				temp = 284.257126006767
-				tempExt = 284.153630378834
+				temp = 284.600166399671
+				tempExt = 284.719920255976
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -183023,8 +183023,8 @@ GAME
 				attN = top, 221
 				attN = bottom, 223
 				mass = 0.05
-				temp = 283.903346005471
-				tempExt = 283.227450424117
+				temp = 283.919661619266
+				tempExt = 283.34967234087
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -183076,8 +183076,8 @@ GAME
 				attN = top, 222
 				attN = bottom, 224
 				mass = 0.01
-				temp = 283.622222357683
-				tempExt = 282.998312511073
+				temp = 283.618549486489
+				tempExt = 283.003964366602
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -183129,8 +183129,8 @@ GAME
 				attN = bottom, 225
 				attN = top, 223
 				mass = 0.05
-				temp = 283.560630846442
-				tempExt = 283.171839273698
+				temp = 283.547279493291
+				tempExt = 283.172651653262
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -183228,8 +183228,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 224
 				mass = 0.02
-				temp = 283.518418441396
-				tempExt = 283.164668854879
+				temp = 283.502771859588
+				tempExt = 283.152797169079
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -183458,8 +183458,8 @@ GAME
 				sym = 229
 				srfN = srfAttach, 223
 				mass = 0.015
-				temp = 283.468889484222
-				tempExt = 282.846433290426
+				temp = 283.457533217854
+				tempExt = 282.840324403549
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -183695,8 +183695,8 @@ GAME
 				sym = 229
 				srfN = srfAttach, 223
 				mass = 0.015
-				temp = 283.468889484222
-				tempExt = 282.846433290426
+				temp = 283.457533217854
+				tempExt = 282.840324403549
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -183932,8 +183932,8 @@ GAME
 				sym = 229
 				srfN = srfAttach, 223
 				mass = 0.015
-				temp = 283.468889484222
-				tempExt = 282.846433290426
+				temp = 283.457533217854
+				tempExt = 282.840324403549
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -184169,8 +184169,8 @@ GAME
 				sym = 228
 				srfN = srfAttach, 223
 				mass = 0.015
-				temp = 283.468889484222
-				tempExt = 282.846433290426
+				temp = 283.457533217854
+				tempExt = 282.840324403549
 				tempExtUnexp = 4
 				expt = 0
 				state = 1
@@ -184404,8 +184404,8 @@ GAME
 				sym = 231
 				srfN = srfAttach, 222
 				mass = 0.0175
-				temp = 283.792409688898
-				tempExt = 282.750232259492
+				temp = 283.788682101417
+				tempExt = 282.838443157137
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -184515,8 +184515,8 @@ GAME
 				sym = 230
 				srfN = srfAttach, 222
 				mass = 0.0175
-				temp = 283.792409688898
-				tempExt = 282.750232259492
+				temp = 283.788682101417
+				tempExt = 282.838443157137
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -184625,8 +184625,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 222
 				mass = 0.015
-				temp = 283.831313768308
-				tempExt = 283.473255581314
+				temp = 283.839311932332
+				tempExt = 283.479370215898
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -184756,8 +184756,8 @@ GAME
 				sym = 242
 				srfN = srfAttach, 221
 				mass = 0.03
-				temp = 284.023115512857
-				tempExt = 283.813793873398
+				temp = 284.18163883656
+				tempExt = 284.097595431574
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -184916,8 +184916,8 @@ GAME
 				sym = 243
 				srfN = srfAttach, 233
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185076,8 +185076,8 @@ GAME
 				sym = 244
 				srfN = srfAttach, 233
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185236,8 +185236,8 @@ GAME
 				sym = 242
 				srfN = srfAttach, 221
 				mass = 0.03
-				temp = 284.023115512857
-				tempExt = 283.813793873398
+				temp = 284.18163883656
+				tempExt = 284.097595431574
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185396,8 +185396,8 @@ GAME
 				sym = 243
 				srfN = srfAttach, 236
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185556,8 +185556,8 @@ GAME
 				sym = 244
 				srfN = srfAttach, 236
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185716,8 +185716,8 @@ GAME
 				sym = 242
 				srfN = srfAttach, 221
 				mass = 0.03
-				temp = 284.023115512857
-				tempExt = 283.813793873398
+				temp = 284.18163883656
+				tempExt = 284.097595431574
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -185876,8 +185876,8 @@ GAME
 				sym = 243
 				srfN = srfAttach, 239
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186036,8 +186036,8 @@ GAME
 				sym = 244
 				srfN = srfAttach, 239
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186196,8 +186196,8 @@ GAME
 				sym = 239
 				srfN = srfAttach, 221
 				mass = 0.03
-				temp = 284.023115512857
-				tempExt = 283.813793873398
+				temp = 284.18163883656
+				tempExt = 284.097595431574
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186356,8 +186356,8 @@ GAME
 				sym = 240
 				srfN = srfAttach, 242
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186516,8 +186516,8 @@ GAME
 				sym = 241
 				srfN = srfAttach, 242
 				mass = 0.03
-				temp = 283.948115708971
-				tempExt = 283.672979596449
+				temp = 284.047138570293
+				tempExt = 283.840052642722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186673,8 +186673,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186830,8 +186830,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 245
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -186987,8 +186987,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 245
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187144,8 +187144,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187301,8 +187301,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 248
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187458,8 +187458,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 248
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187615,8 +187615,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187772,8 +187772,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 251
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -187929,8 +187929,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 251
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188086,8 +188086,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188243,8 +188243,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 254
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188400,8 +188400,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 254
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188557,8 +188557,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188714,8 +188714,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 257
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -188871,8 +188871,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 257
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189028,8 +189028,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189185,8 +189185,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 260
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189342,8 +189342,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 260
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189499,8 +189499,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 19
 				mass = 0.03
-				temp = 295.828863128318
-				tempExt = 300.057102617593
+				temp = 304.890906729706
+				tempExt = 308.28468952567
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189656,8 +189656,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 263
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189813,8 +189813,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 263
 				mass = 0.03
-				temp = 292.051516445876
-				tempExt = 294.724064724193
+				temp = 300.779931408283
+				tempExt = 303.244740274117
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -189970,8 +189970,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 18
 				mass = 0.03
-				temp = 294.423911683919
-				tempExt = 297.869518991623
+				temp = 303.101822948162
+				tempExt = 306.124005115916
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -190127,8 +190127,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 266
 				mass = 0.03
-				temp = 290.938435046404
-				tempExt = 293.214516175049
+				temp = 299.130381842594
+				tempExt = 301.409242227805
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -190284,8 +190284,8 @@ GAME
 				attm = 1
 				srfN = srfAttach, 266
 				mass = 0.03
-				temp = 290.938435046404
-				tempExt = 293.214516175049
+				temp = 299.130381842594
+				tempExt = 301.409242227805
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -190443,8 +190443,8 @@ GAME
 				attN = top, -1
 				attN = bottom, 0
 				mass = 0.05
-				temp = 282.399026427233
-				tempExt = 282.40992910525
+				temp = 283.111672982194
+				tempExt = 283.237934118635
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -190683,9 +190683,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0.002526635
-				yaw = -0.001557242
-				roll = -0.0002263289
+				pitch = 0.02800947
+				yaw = -0.005970879
+				roll = -0.00250568
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
